@@ -1,1 +1,0 @@
-# theschoolofbitcoin.github.io
