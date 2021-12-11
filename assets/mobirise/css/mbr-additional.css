@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Epilogue:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap);
+
+
+
+
+
 body {
   font-family: Jost;
 }
@@ -518,7 +524,7 @@ a.text-black:focus,
 a.text-black.active {
   color: #000000 !important;
 }
-a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption) {
+a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]) {
   position: relative;
   background-image: transparent;
   background-size: 10000px 2px;
@@ -526,7 +532,7 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
   background-position: 0px 1.2em;
   background-position: -10000px 1.2em;
 }
-a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption):hover {
+a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):hover {
   transition: background-position 2s ease-in-out;
   background-image: linear-gradient(currentColor 50%, currentColor 50%);
   background-position: 0px 1.2em;
@@ -746,7 +752,7 @@ a {
 }
 .cid-sFGzlAXw3z .dropdown-menu,
 .cid-sFGzlAXw3z .navbar.opened {
-  background: #ff9966 !important;
+  background: #353535 !important;
 }
 .cid-sFGzlAXw3z .nav-item:focus,
 .cid-sFGzlAXw3z .nav-link:focus {
@@ -780,7 +786,7 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  background: rgba(255, 153, 102, 0);
+  background: rgba(53, 53, 53, 0.2);
 }
 .cid-sFGzlAXw3z .navbar.opened {
   transition: all 0.3s;
@@ -806,7 +812,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-sFGzlAXw3z .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 8rem);
+    max-height: calc(98.5vh - 3rem);
   }
 }
 .cid-sFGzlAXw3z .navbar.collapsed .dropdown-menu .dropdown-submenu {
@@ -925,7 +931,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-sFGzlAXw3z .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #ff9966;
+  background: #353535;
 }
 .cid-sFGzlAXw3z .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
