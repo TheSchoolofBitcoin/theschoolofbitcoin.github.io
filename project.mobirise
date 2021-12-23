@@ -58,6 +58,8 @@
     "uniqCompNum": 8,
     "versionPublish": "5.2.2",
     "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
     "lazyType": "placeholder"
   },
   "pages": {
