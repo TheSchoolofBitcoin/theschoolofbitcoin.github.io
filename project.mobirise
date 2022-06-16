@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "learnervoice.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -50,8 +50,8 @@
     "imageResize": true,
     "cssOptimize": true,
     "lazyLoad": true,
-    "favicon": false,
-    "mbrsiteDomain": "kgxanepcaw",
+    "favicon": "@PROJECT_PATH@/assets/images/smaller-thebitcoinschool-icon-341x243-128x128.png",
+    "mbrsiteDomain": "moos6htg6k",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": "on",
