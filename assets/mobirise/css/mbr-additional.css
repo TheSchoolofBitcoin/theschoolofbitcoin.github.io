@@ -695,6 +695,18 @@ a {
 .cid-t06duiR6sK .mbr-section-btn {
   color: #ffffff;
 }
+#custom-html-1o {
+  /* Type valid CSS here */
+}
+#custom-html-1o div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-1o p {
+  font-size: 60px;
+  color: #777;
+}
 .cid-sY2jSjWXlu {
   padding-top: 30px;
   padding-bottom: 195px;
@@ -1727,4 +1739,24 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+#custom-html-1q {
+  /* Type valid CSS here */
+}
+#custom-html-1q div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-1q p {
+  font-size: 60px;
+  color: #777;
+}
+.cid-sZOBggxkva {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ff9966;
+}
+.cid-sZOBggxkva .media-container-row .mbr-text {
+  color: #f8f8f8;
 }
