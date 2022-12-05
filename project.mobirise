@@ -5,7 +5,7 @@
       "name": "mobirise5",
       "title": "Mobirise 5",
       "styling": {
-        "primaryColor": "#ffffff",
+        "primaryColor": "#ff9900",
         "secondaryColor": "#585252",
         "successColor": "#40b0bf",
         "infoColor": "#21bf54",
@@ -62,7 +62,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 90,
+    "uniqCompNum": 100,
     "versionPublish": "5.3.10",
     "screenshot": "screenshot.png",
     "lazyType": "placeholder",
@@ -72,6 +72,9 @@
       "email": "kdnolan@gmail.com",
       "currency": "AUD",
       "popupProduct": true
+    },
+    "mcSmartCart": {
+      "currency": "USD"
     }
   },
   "pages": {
@@ -494,7 +497,7 @@
         },
         {
           "_name": "header02",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Icons\" name=\"iconsCount\" min=\"1\" max=\"5\" step=\"1\" value=\"4\">\n        <header>Color</header>\n        <input type=\"color\" name=\"iconsColor\" title=\"Icons\" value=\"#ffffff\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/fo7200aefec47-1-2000x1414.png\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#131419\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-12 col-lg-10\">\n                <h2 class=\"mbr-section-subtitle align-left mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showSubitle\">A <a href=\"http://digitalplayhouse.com.au\" class=\"text-info\" target=\"_blank\"><b>Digital Playhouse Foundation</b></a> community for (de)financial literacy.</h2>\n                <h1 class=\"mbr-section-title align-left mbr-fonts-style mb-5\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>The School of ₿itcoin&nbsp; &nbsp;</b></h1>\n                <p class=\"mbr-text align-left mbr-fonts-style pb-5\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\"A Decentralised Autonomous Education System\"<br>🅐 Certified Mentors over the <a href=\"https://lightning.network/\" class=\"text-primary\" target=\"_blank\">Lightning Network</a><br>🅑 <a href=\"https://explorer.stacks.co/txid/a3149eb897ddbba3d7135e3c180329cbda684720cd123d71cc25ea4fb27edc85?chain=mainnet\" class=\"text-primary\" target=\"_blank\">₿TC pool</a> to fund learner projects (problem based learning)\n<br>🅒&nbsp; An open curriculum (consensus driven)</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-left mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-lg btn-black\" href=\"index.html#team01-2h\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-arrow-down mbr-iconfont mbr-iconfont-btn\"></span>Mentors</a> <a class=\"btn btn-lg btn-black\" href=\"https://github.com/TheSchoolofBitcoin/curriculumDAO_CD\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"imind-thunder mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 225, 97);\"></span>DAES&nbsp;</a> <a class=\"btn btn-lg btn-black\" href=\"https://github.com/TheSchoolofBitcoin/curriculumDAO_CD\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-github mbr-iconfont mbr-iconfont-btn\"></span>Open Curriculum</a> <a class=\"btn btn-lg btn-black\" href=\"http://resources.theschoolofbitcoin.com\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"fa fa-book mbr-iconfont mbr-iconfont-btn\"></span>Resources</a></div>\n            </div>\n        </div>\n    </div>\n    <div class=\"icons-wrapper\">\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 0\">\n            <a href=\"https://github.com/TheSchoolofBitcoin/curriculumDAO_CD\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont socicon-github socicon\"></span></a>\n        </div>\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 1\">\n            <a href=\"https://www.youtube.com/playlist?list=PLwn9KgpxsZSRvMj6vHHAZbXVXOzX-sH6j\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont socicon-youtube socicon\"></span></a>\n        </div>\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 2\">\n            <a href=\"https://getalby.com/p/theschoolofbitcoin\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont fa-bitcoin fa\"></span></a>\n        </div>\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 3\">\n            <a href=\"https://twitter.com/theschoolofbtc\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont socicon-twitter socicon\"></span></a>\n        </div>\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 4\">\n            <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Icons\" name=\"iconsCount\" min=\"1\" max=\"5\" step=\"1\" value=\"4\">\n        <header>Color</header>\n        <input type=\"color\" name=\"iconsColor\" title=\"Icons\" value=\"#ffffff\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/fo7200aefec47-1-2000x1414.png\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#131419\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-12 col-lg-10\">\n                <h2 class=\"mbr-section-subtitle align-left mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showSubitle\"><a href=\"https://getalby.com/p/theschoolofbitcoin\" class=\"text-primary\" target=\"_blank\">⚡️theschoolofbitcoin@getalby.com</a></h2>\n                <h1 class=\"mbr-section-title align-left mbr-fonts-style mb-5\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>The School of ₿itcoin&nbsp; &nbsp;</b></h1>\n                <p class=\"mbr-text align-left mbr-fonts-style pb-5\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"assets/files/Bitcoin-DiplomaV3.0.pdf\" class=\"text-warning\" target=\"_blank\">Mi Primer Bitcoin Curriculum</a>&nbsp;(mapped to <a href=\"https://training.gov.au/Training/Details/10747NAT\" class=\"text-primary\" target=\"_blank\">10747NAT</a>)<br><a href=\"mentors.html\" class=\"text-primary\">Mentors</a><br><a href=\"https://resources.theschoolofbitcoin.com/\" class=\"text-primary\" target=\"_blank\">Resources</a><br><a href=\"https://explorer.stacks.co/txid/a3149eb897ddbba3d7135e3c180329cbda684720cd123d71cc25ea4fb27edc85?chain=mainnet\" class=\"text-primary\" target=\"_blank\">DAES Learner&nbsp;Fund&nbsp;</a><br><a href=\"https://hubs.mozilla.com/CmZSgSr/theschoolofbitcoin/\" class=\"text-primary\" target=\"_blank\">Virtual Learning Space</a><br><a href=\"https://github.com/TheSchoolofBitcoinCurriculum/roadmap/blob/main/roadmap.md\" class=\"text-primary\" target=\"_blank\">Roadmap</a><a href=\"https://hubs.mozilla.com/CmZSgSr/theschoolofbitcoin/\" class=\"text-primary\" target=\"_blank\"><br></a><br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-left mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-lg btn-black\" href=\"index.html#team01-2h\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-arrow-down mbr-iconfont mbr-iconfont-btn\"></span>Mentors</a> <a class=\"btn btn-lg btn-black\" href=\"https://github.com/TheSchoolofBitcoin/curriculumDAO_CD\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"imind-thunder mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 225, 97);\"></span>DAES&nbsp;</a> <a class=\"btn btn-lg btn-black\" href=\"https://github.com/TheSchoolofBitcoin/curriculumDAO_CD\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-github mbr-iconfont mbr-iconfont-btn\"></span>Open Curriculum</a> <a class=\"btn btn-lg btn-black\" href=\"http://resources.theschoolofbitcoin.com\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"fa fa-book mbr-iconfont mbr-iconfont-btn\"></span>Resources</a></div>\n            </div>\n        </div>\n    </div>\n    <div class=\"icons-wrapper\">\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 0\">\n            <a href=\"https://github.com/TheSchoolofBitcoin/curriculumDAO_CD\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont socicon-github socicon\"></span></a>\n        </div>\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 1\">\n            <a href=\"https://www.youtube.com/playlist?list=PLwn9KgpxsZSRvMj6vHHAZbXVXOzX-sH6j\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont socicon-youtube socicon\"></span></a>\n        </div>\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 2\">\n            <a href=\"https://getalby.com/p/theschoolofbitcoin\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont fa-bitcoin fa\"></span></a>\n        </div>\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 3\">\n            <a href=\"https://twitter.com/theschoolofbtc\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont socicon-twitter socicon\"></span></a>\n        </div>\n        <div class=\"icon-wrapper\" mbr-if=\"iconsCount > 4\">\n            <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 1rem)",
@@ -508,14 +511,14 @@
             },
             ".mbr-text, .mbr-section-btn": {
               "color": "#bbbbbb",
-              "text-align": "left"
+              "text-align": "right"
             },
             ".mbr-section-btn": {
               "padding-bottom": "8rem"
             },
             ".mbr-section-subtitle": {
               "color": "#ffffff",
-              "text-align": "center"
+              "text-align": "left"
             },
             ".mbr-iconfont": {
               "color": "@iconsColor",
@@ -551,150 +554,11 @@
             },
             ".mbr-section-title": {
               "color": "#ffffff",
-              "text-align": "center"
+              "text-align": "right"
             }
           },
           "_cid": "ti1aLaiWyS",
           "_anchor": "header02-2g",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_name": "team01",
-          "_customHTML": "<section class=\"teams1\" group=\"Teams\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"checkbox\" title=\"Icon\" name=\"showIcon\" checked>\n        <input type=\"checkbox\" title=\"Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Role\" name=\"showRole\" checked>\n        <header>Colors</header>\n        <input type=\"color\" title=\"Card 1\" name=\"cardBg1\" value=\"#ff9966\">\n        <input type=\"color\" title=\"Card 2\" name=\"cardBg2\" value=\"#183737\" condition=\"cardsAmount > 1\">\n        <input type=\"color\" title=\"Card 3\" name=\"cardBg3\" value=\"#000000\" condition=\"cardsAmount > 2\">\n        <input type=\"color\" title=\"Card 4\" name=\"cardBg4\" value=\"#59bb93\" condition=\"cardsAmount > 3\">\n        <input type=\"color\" title=\"Line\" name=\"lineBG\" value=\"#ffd96a\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"/addons/conceptm4/components/_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#353535\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"/addons/conceptm4/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 card1 col-md-12 col-lg-6\">\n                <div class=\"card-wrap\">\n                    <div class=\"line\"></div>\n                    <div class=\"image-wrap\">\n                        <img src=\"@PROJECT_PATH@/assets/images/kieran-720x510.png\" alt>\n                    </div>\n                    <div class=\"content-wrap\">\n                        <a href=\"http://vida.page/kierandnolan\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont icon mdi-communication-message\" mbr-if=\"showIcon\"></span></a>\n\n                        <h5 class=\"mbr-section-title card-title mbr-fonts-style m-0\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".card-title, .icon, .icon-plus\"><b>Kieran Nolan</b></h5>\n                        <h6 class=\"mbr-role mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\" data-app-selector=\".mbr-role\"><a href=\"https://vida.page/kierandnolan\" class=\"text-primary\" target=\"_blank\">⚡vida.page/kierandnolan</a><br>Kieran has over 10 years experience in the BTC industry, his areas of expertise include: Lightning Network Integration, Mining Setup and Maintenance, Security and Hardware Wallets, Full Node Implementation, and IPFS.<br><br></h6>\n\n                        <span mbr-icon class=\"icon-plus mobi-mbri-plus mobi-mbri\"></span>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-12 card2 col-md-12 col-lg-6\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrap\">\n                    <div class=\"line\"></div>\n                    <div class=\"image-wrap\">\n                        <img src=\"@PROJECT_PATH@/assets/images/electra-720x510.png\" alt>\n                    </div>\n                    <div class=\"content-wrap\">\n                        <a href=\"http://vida.page/electra\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont icon mdi-communication-message\" mbr-if=\"showIcon\"></span></a>\n\n                        <h5 class=\"mbr-section-title card-title mbr-fonts-style m-0\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".card-title, .icon, .icon-plus\"><b>Electra Frost</b></h5>\n                        <h6 class=\"mbr-role mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\" data-app-selector=\".mbr-role\"><a href=\"http://vida.page/electra\" class=\"text-primary\" target=\"_blank\">⚡ vida.page/electra</a><br>Electra has been a business advisor for 20 years+ | Early adopter of cloud technologies | Always innovating within my own practice to guide others | Reporting Bitcoin on the balance sheet since 2014.\n<div><br></div></h6>\n\n                        <span mbr-icon class=\"icon-plus mobi-mbri-plus mobi-mbri\"></span>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-12 card3 col-md-12 col-lg-6\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrap\">\n                    <div class=\"line\"></div>\n                    <div class=\"image-wrap\">\n                        <img src=\"@PROJECT_PATH@/assets/images/oliwhite159-img-1237-1-720x509.png\" alt>\n                    </div>\n                    <div class=\"content-wrap\">\n                        <a href=\"http://vida.page/tigs\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont icon mdi-communication-message\" mbr-if=\"showIcon\"></span></a>\n\n                        <h5 class=\"mbr-section-title card-title mbr-fonts-style m-0\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".card-title, .icon, .icon-plus\"><b>Oliver White</b><b><br></b></h5>\n                        <h6 class=\"mbr-role mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\" data-app-selector=\".mbr-role\"><a href=\"http://vida.page/tigs\" class=\"text-primary\" target=\"_blank\">⚡ vida.page/tigs</a><br>Oliver has had several years working and studying the workings of Bitcoin and other Blockchains. Areas of expertise lie in Node installation, hardware wallet consultation as well as a budding interest in Self-hosting and Lightning.</h6>\n\n                        <span mbr-icon class=\"icon-plus mobi-mbri-plus mobi-mbri\"></span>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-12 card4 col-md-12 col-lg-6\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrap\">\n                    <div class=\"line\"></div>\n                    <div class=\"image-wrap\">\n                        <img src=\"@PROJECT_PATH@/assets/images/gordon-fo213e2649f86-300x212.png\" alt>\n                    </div>\n                    <div class=\"content-wrap\">\n                        <a href=\"http://vida.page/gordon\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont icon mdi-communication-message\" mbr-if=\"showIcon\"></span></a>\n\n                        <h5 class=\"mbr-section-title card-title mbr-fonts-style m-0\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".card-title, .icon, .icon-plus\"><b>Gordon Christian</b></h5>\n                        <h6 class=\"mbr-role mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\" data-app-selector=\".mbr-role\"><a href=\"http://vida.page/gordon\" class=\"text-primary\" target=\"_blank\">⚡ vida.page/gordon</a><div>Starting with Australia's first Digital Currency Town in 2018 Gordon is shining the light for many on the pathway to Bitcoin adoption. The Bitcoin station is always open and tickets to ride are free. \n</div><div><br></div></h6>\n\n                        <span mbr-icon class=\"icon-plus mobi-mbri-plus mobi-mbri\"></span>\n                    </div>\n                </div>\n            </div>\n\n\n        </div>\n    </div>\n</section>",
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "& when (@bg-type = 'color')": {
-              "background": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".team-card": {
-              "margin-bottom": "2rem",
-              "transition": "all 0.3s",
-              "&:hover": {
-                "transform": "translateY(-10px)"
-              }
-            },
-            "img": {
-              "transform": "scale(1.1)",
-              "transition": "all 0.3s"
-            },
-            ".image-wrap": {
-              "overflow": "hidden",
-              "width": "50%",
-              "@media (max-width: 767px)": {
-                "width": "100%"
-              }
-            },
-            ".icon-plus": {
-              "font-size": "1rem",
-              "color": "currentColor",
-              "position": "absolute",
-              "bottom": "1rem",
-              "right": "1rem",
-              "transition": "all 0.3s"
-            },
-            ".line": {
-              "position": "absolute",
-              "top": "1.5rem",
-              "left": "50%",
-              "transform": "translate(-50%)",
-              "width": "25px",
-              "height": "5px",
-              "background": "@lineBG",
-              "z-index": "10",
-              "@media (max-width: 767px)": {
-                "display": "none"
-              }
-            },
-            ".container": {
-              "max-width": "1400px",
-              "@media (min-width: 767px)": {
-                "padding": "0 3rem"
-              }
-            },
-            ".content-wrap": {
-              "padding": "2rem"
-            },
-            ".icon": {
-              "font-size": "2.5rem",
-              "color": "currentColor",
-              "padding-bottom": "1rem",
-              "display": "block"
-            },
-            ".card1": {
-              "background": "@cardBg1",
-              "padding": "0"
-            },
-            ".card2": {
-              "background": "@cardBg2",
-              "padding": "0"
-            },
-            ".card3": {
-              "background": "@cardBg3",
-              "padding": "0"
-            },
-            ".card4": {
-              "background": "@cardBg4",
-              "padding": "0"
-            },
-            ".card-wrap": {
-              "position": "relative",
-              "display": "flex",
-              "@media (max-width: 767px)": {
-                "flex-direction": "column"
-              },
-              "&:hover": {
-                "img": {
-                  "transform": "scale(1)"
-                },
-                ".icon-plus": {
-                  "transform": "rotate(90deg)",
-                  "transform-origin": "center"
-                }
-              },
-              ".image-wrap img": {
-                "width": "100%"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".content-wrap": {
-                "padding": "4rem 1rem",
-                "text-align": "center"
-              }
-            },
-            ".card-title, .icon, .icon-plus": {
-              "color": "#ffffff"
-            },
-            ".mbr-role": {
-              "color": "#ffffff"
-            },
-            ".mbr-fallback-image.disabled": {
-              "display": "none"
-            },
-            ".mbr-fallback-image": {
-              "display": "block",
-              "background-size": "cover",
-              "background-position": "center center",
-              "width": "100%",
-              "height": "100%",
-              "position": "absolute",
-              "top": "0",
-              "& when (@bg-type = 'video')": {
-                "background-image": "url(@fallBackImage)"
-              }
-            },
-            ".mbr-role DIV": {
-              "text-align": "left"
-            }
-          },
-          "_cid": "ti32zE6TTi",
-          "_anchor": "team01-2h",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -955,450 +819,34 @@
         {
           "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
-            ".media-wrap": {
-              "padding": "0",
-              "@media (max-width: 991px)": {
-                "margin-bottom": "1rem"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".row": {
-                "text-align": "center",
-                "& > div": {
-                  "margin": "auto"
-                }
-              },
-              ".social-row": {
-                "justify-content": "center"
-              }
-            },
-            ".social-row": {
-              "display": "flex",
-              "flex-wrap": "wrap"
-            },
-            ".list": {
-              "list-style": "none",
-              "padding-left": "0",
-              "@media (max-width: 991px)": {
-                "margin-bottom": "2rem"
-              },
-              "@media (min-width: 992px)": {
-                "margin-bottom": "0rem"
-              },
-              "color": "#bbbbbb"
-            },
-            ".mbr-text": {
-              "color": "#bbbbbb"
-            },
-            ".soc-item": {
-              "display": "flex",
-              "align-items": "center",
-              "justify-content": "center",
-              "border-radius": "50%",
-              "background-color": "white",
-              "margin-right": "0.5rem",
-              "margin-bottom": "1rem",
-              "padding": "0.5rem",
-              "height": "2.5rem",
-              "width": "2.5rem"
-            },
-            ".mbr-iconfont": {
-              "color": "black"
-            },
-            "@media (max-width: 991px)": {
-              "div > *:last-child": {
-                "margin-top": "0 !important"
-              }
-            }
+            "overflow": "hidden"
           },
-          "_name": "footer4",
+          "_name": "footer7",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"footer4\" group=\"Footers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" global once=\"footers\" mbr-class=\"{\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Logo Size\" name=\"logoSize\" min=\"1\" max=\"3\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked>\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"4\" step=\"1\" value=\"4\" condition=\"showSocial\">\n        <input type=\"checkbox\" title=\"Copyright\" name=\"showCopyright\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row mbr-white\">\n            <div class=\"col-6 col-lg-3\">\n                <div class=\"media-wrap col-md-{{4*logoSize}} col-12\">\n                    <a href=\"https://mobiri.se/\">\n                        <img src=\"@PROJECT_PATH@/assets/images/theschoolofbitcoin-506x469.png\" alt=\"Mobirise\">\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"></h5>\n                <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">\n                    A<a href=\"http://digitalplayhouse.org.au\" class=\"text-info\" target=\"_blank\">  Digital Playhouse Foundation</a> <a href=\"https://en.wikipedia.org/wiki/Open_source\" class=\"text-danger\" target=\"_blank\">open project</a> to build a dynamic consensus driven curriculum &amp; community specifically for (de)financial literacy that has the ability to plug into any institution to support learners on <a href=\"https://en.wikipedia.org/wiki/Problem-based_learning\" class=\"text-danger\" target=\"_blank\">problem </a>and <a href=\"https://en.wikipedia.org/wiki/Project-based_learning\" class=\"text-danger\" target=\"_blank\">project </a>based learning journeys.</p>\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showTitle && showSocial\"><a href=\"https://theschoolofbitcoin.substack.com/\" class=\"text-danger\" target=\"_blank\">Substack Newsletter</a><br><a href=\"https://podcastindex.org/podcast/5567149\" class=\"text-danger text-primary\" target=\"_blank\">Podcast</a></h5>\n                <div class=\"social-row display-7\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.youtube.com/playlist?list=PLwn9KgpxsZSRvMj6vHHAZbXVXOzX-sH6j\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont fa-youtube-play fa\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/theschoolofbtc\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-twitter socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://resources.theschoolofbitcoin.com/\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-github socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://discord.com/invite/eETDK5xfqU\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-discord socicon\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><span style=\"font-size: 1rem;\"><a href=\"https://docs.google.com/document/d/1jExbHXOdRShllCUEPxZ_3cTdmcGXTq8j7-LgHQ-9ocg/edit?usp=sharing\" class=\"text-danger\" target=\"_blank\">Faculty Meeting Notes</a></span></li><li class=\"mbr-text item-wrap\"><span style=\"font-size: 1rem;\"><a href=\"https://www.youtube.com/playlist?list=PLwn9KgpxsZSRvMj6vHHAZbXVXOzX-sH6j\" class=\"text-danger\" target=\"_blank\">Faculty Meetings</a></span></li><li class=\"mbr-text item-wrap\"><span style=\"font-size: 1rem;\"><a href=\"https://us02web.zoom.us/j/89949968566?pwd=b1BqeE9nYkZwZzk5YnBCODY5UWhTQT09\" class=\"text-danger\" target=\"_blank\">Zoom link</a></span><br></li><a href=\"https://us02web.zoom.us/j/89949968566?pwd=b1BqeE9nYkZwZzk5YnBCODY5UWhTQT09\" class=\"text-primary\" target=\"_blank\">\n                    </a><li class=\"mbr-text item-wrap\"><a href=\"https://discord.com/invite/eETDK5xfqU\" class=\"text-danger\" target=\"_blank\">Discord</a></li><li class=\"mbr-text item-wrap\"><a href=\"https://market.theschoolofbitcoin.com/\" class=\"text-danger\" target=\"_blank\">Marketplace</a></li><li class=\"mbr-text item-wrap\"><a href=\"https://classroom.google.com/u/0/c/NTM3NzY0NzM4NzI1\" class=\"text-danger\" target=\"_blank\">Google Classroom</a></li><li class=\"mbr-text item-wrap\"><a href=\"https://resources.theschoolofbitcoin.com/\" class=\"text-danger\" target=\"_blank\">Resources</a></li><li class=\"mbr-text item-wrap\"><a href=\"https://hubs.mozilla.com/CmZSgSr/theschoolofbitcoin/\" class=\"text-danger\" target=\"_blank\">Virtual Learning Space</a></li><li class=\"mbr-text item-wrap\"><br></li><li class=\"mbr-text item-wrap\"><b>DAES</b></li><li class=\"mbr-text item-wrap\"><a href=\"https://github.com/TheSchoolofBitcoin/curriculumDAO_CD\" class=\"text-danger\" target=\"_blank\">DAES Repository</a>\n</li><li class=\"mbr-text item-wrap\"><a href=\"https://www.youtube.com/watch?v=hNxNwY8R9SE\" class=\"text-danger\" target=\"_blank\">What is a DAES?</a></li><li class=\"mbr-text item-wrap\"><a href=\"https://explorer.stacks.co/txid/a3149eb897ddbba3d7135e3c180329cbda684720cd123d71cc25ea4fb27edc85?chain=mainnet\" class=\"text-danger\" target=\"_blank\">Stacks Pool</a></li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">Learner Tools</h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><span style=\"font-size: 1rem;\"><a href=\"https://www.hiro.so/wallet\" class=\"text-danger\" target=\"_blank\">Hiro Wallet</a></span></li><li class=\"mbr-text item-wrap\"><a href=\"https://github.com/ipfs/ipfs-desktop\" class=\"text-danger\" target=\"_blank\">IPFS Desktop</a></li><li class=\"mbr-text item-wrap\"><span style=\"font-size: 1rem;\"><a href=\"https://www.walletofsatoshi.com/\" class=\"text-danger\" target=\"_blank\">Wallet of Satoshi</a></span></li><li class=\"mbr-text item-wrap\"><span style=\"font-size: 1rem;\"><a href=\"https://github.com/runcitadel\" class=\"text-danger\" target=\"_blank\">Citadel</a></span></li><li class=\"mbr-text item-wrap\"><br></li>\n                </ul>\n            </div>\n            <div class=\"col-12 mt-4\" mbr-if=\"showCopyright\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style copyright align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright\" data-app-placeholder=\"Type Text\">\n                    <a href=\"https://www.gnu.org/licenses/gpl-3.0.en.html\" class=\"text-danger\" target=\"_blank\">GPLv3 Copyleft License 2022</a></p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "te3CNPzgme",
-          "_anchor": "footer4-1y",
+          "_customHTML": "<section class=\"footer7\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    <a href=\"https://www.gnu.org/licenses/gpl-3.0.en.html\" class=\"text-primary\" target=\"_blank\">GPLv3 Copyleft License 2022</a><br>A <a href=\"https://www.digitalplayhouse.org.au/\" class=\"text-info\" target=\"_blank\">Digital Playhouse Foundation</a> Open Project<br><a href=\"https://getalby.com/p/theschoolofbitcoin\" class=\"text-primary\" target=\"_blank\">⚡️theschoolofbitcoin@getalby.com</a><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tpbtxJVmnL",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
-          "_params": {}
+          "_params": {},
+          "_anchor": "footer7-2k"
         }
       ]
     },
-    "learnervoice.html": {
+    "mentors.html": {
       "settings": {
-        "title": "learner voice",
-        "order": 2
+        "title": "mentors",
+        "order": 1
       },
       "components": [
-        {
-          "alias": false,
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".row": {
-              "align-items": "center"
-            },
-            ".text-wrapper": {
-              "display": "flex",
-              "flex-direction": "column",
-              "align-items": "flex-start"
-            },
-            ".header-text": {
-              "width": "100%",
-              "margin-bottom": "40px",
-              "@media (max-width: 767px)": {
-                "margin-bottom": "20px"
-              }
-            },
-            ".mbr-section-title": {
-              "width": "100%",
-              "color": "#ff9966",
-              "margin-bottom": "0",
-              "text-align": "right"
-            },
-            ".mbr-text": {
-              "color": "#ffffff",
-              "width": "100%",
-              "margin-bottom": "0",
-              "margin-top": "12px"
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "text-align": "right"
-            }
-          },
-          "_name": "header10",
-          "_customHTML": "<section class=\"header10\" group=\"Header\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/fo7200aefec47-1-2000x1414.png\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#0057fc\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12\">\n                <div class=\"text-wrapper\">\n                    <div class=\"header-text\">\n                        <h2 class=\"mbr-section-title mbr-fonts-style align-center\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>{learner voice}</b></h2>\n                        <p class=\"mbr-text mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">We invite you to express your thoughts, ideas and questions you are puzzling about on this page. Different questions and ideas will be posted here and we look forward to seeing your responses and thoughts about these. Your thoughts, questions, ideas and suggestions could start conversations helping all who join in with posts learn more and share what they know, would like to know and share experiences too. Did you know that regardless of your age, you have the right to give your opinions and express your views freely on issues that affect you and you should be listened to and taken seriously. You also have the right to share freely with others what you learn, think and feel, by talking, drawing, writing or in any other way unless it harms or offends other people. (U.N. Convention on the Rights of the Child)\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "t8SRVa7gdn",
-          "_anchor": "header10-1n",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_name": "timeline01",
-          "_customHTML": "<section class=\"timeline01 creativem4_timeline01\" group=\"Timeline\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"BG Layer\" name=\"bglayer\">\n        <input type=\"color\" title=\"BG Layer Color\" name=\"bgLayerColor\" value=\"#bfebf3\" condition=\"bglayer\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <header>Timeline</header>\n        <input type=\"color\" title=\"Timelines Color\" name=\"timelineColor\" value=\"#ff9966\">\n        <select title=\"Timelines count\" name=\"timelinesAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n            <option value=\"7\">7</option>\n            <option value=\"8\">8</option>\n            <option value=\"9\">9</option>\n            <option value=\"10\">10</option>\n            <option value=\"11\">11</option>\n            <option value=\"12\">12</option>\n        </select>\n        <input type=\"checkbox\" title=\"Hover effect\" name=\"hoverEffect\" checked>\n        <input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\" condition=\"hoverEffect\">\n        <input type=\"checkbox\" title=\"Reverse Timeline\" name=\"reverseTimeline\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"/addons/creativem4/components/_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#cccccc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container align-center\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>{learner voice}</b></h2>\n        <h3 class=\"mbr-section-subtitle pb-5 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">We invite you to express your thoughts, ideas and questions you are puzzling about on this page. Different questions and ideas will be posted here and we look forward to seeing your responses and thoughts about these. Your thoughts, questions, ideas and suggestions could start conversations helping all who join in with posts learn more and share what they know, would like to know and share experiences too. Did you know that regardless of your age, you have <i>the </i>right to give your opinions and express your views freely on issues that affect you and you should be listened to and taken seriously. You also have the right to share freely with others what you learn, think and feel, by talking, drawing, writing or in any other way unless it harms or offends other people. (U.N. Convention on the Rights of the Child)<div>\n</div></h3>\n\n        <div class=\"container timelines-container\" mbri-timelines mbr-class=\"{'reverseTimeline': reverseTimeline}\">\n            <!--1-->\n            <div class=\"row timeline-element reverse\" mbr-class=\"{'separline': !reverseTimeline &amp;&amp; timelinesAmount > 1}\">\n                <span class=\"iconsBackground\">\n                    <span mbr-icon class=\"mbr-iconfont icon54-v2-profile-lightbulb\"></span>\n                </span>\n                <div class=\"col-xs-12 col-md-6 align-left\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            Provocation 1.0<br></h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">Wednesday, 8 June 2022<br>*What does being independent mean to you?\n<br>*Is being independent and doing what you choose to do to achieve your goals important to you? What stops you or slows you down in reaching your goals?</p>\n                    </div>\n                </div>\n            </div>\n            <!--2-->\n            <div class=\"row timeline-element \" mbr-if=\"timelinesAmount>1\" mbr-class=\"{'separline':timelinesAmount>2 &amp;&amp; !reverseTimeline || !reverseTimeline &amp;&amp; timelinesAmount > 2 || reverseTimeline &amp;&amp; timelinesAmount > 1}\">\n                <span class=\"iconsBackground\">\n                    <span mbr-icon class=\"mbr-iconfont icon54-v3-earth\"></span>\n                </span>\n                <div class=\"col-xs-12 col-md-6 align-left \">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">Provocation 1.1</h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">TBD</p>\n                    </div>\n                </div>\n            </div>\n            <!--3-->\n            <div class=\"row timeline-element reverse\" mbr-if=\"timelinesAmount>2\" mbr-class=\"{'separline': !reverseTimeline &amp;&amp; timelinesAmount > 3 || reverseTimeline &amp;&amp; timelinesAmount > 2}\">\n                <span class=\"iconsBackground\">\n                    <span mbr-icon class=\"mbri-cash mbr-iconfont\"></span>\n                </span>\n                <div class=\"col-xs-12 col-md-6 align-left\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            Smart Watch\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                            Proin sollicitudin, neque et ullamcorper mollis, elit eros fermentum purus, id hendrerit\n                            sapien sapien vel massa. Praesent pellentesque urna eu purus fermentum, quis consequat leo\n                            tristique.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <!--4-->\n            <div class=\"row timeline-element \" mbr-if=\"timelinesAmount>3\" mbr-class=\"{'separline': !reverseTimeline &amp;&amp; timelinesAmount > 4 || reverseTimeline &amp;&amp; timelinesAmount > 3}\">\n                <span class=\"iconsBackground\">\n                    <span mbr-icon class=\"mbri-shopping-cart mbr-iconfont\"></span>\n                </span>\n                <div class=\"col-xs-12 col-md-6 align-left \">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            Design out of the box\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                            Quisque ut convallis turpis, ac dignissim ipsum. Curabitur pulvinar, felis sit amet interdum\n                            finibus, tellus tellus placerat massa, ornare tincidunt lorem risus quis magna. Proin\n                            scelerisque metus non mauris iaculis congue.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <!--5-->\n            <div class=\"row timeline-element reverse\" mbr-if=\"timelinesAmount>4\" mbr-class=\"{'separline': !reverseTimeline &amp;&amp; timelinesAmount > 5 || reverseTimeline &amp;&amp; timelinesAmount > 4}\">\n                <span class=\"iconsBackground\">\n                    <span mbr-icon class=\"mbri-file mbr-iconfont\"></span>\n                </span>\n                <div class=\"col-xs-12 col-md-6 align-left\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            Awesome Reports\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                            Nam rutrum, lacus eget varius sodales, massa erat rutrum velit, vitae dictum tellus ligula\n                            id orci. Pellentesque sit amet sem vulputate, finibus neque et, accumsan sapien.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <!--6-->\n            <div class=\"row timeline-element\" mbr-if=\"timelinesAmount>5\" mbr-class=\"{'separline': !reverseTimeline &amp;&amp; timelinesAmount > 6 || reverseTimeline &amp;&amp; timelinesAmount > 5}\">\n                <span class=\"iconsBackground\">\n                    <span mbr-icon class=\"mbri-error mbr-iconfont\"></span>\n                </span>\n                <div class=\"col-xs-12 col-md-6 align-left \">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            Hotmail was launched commercially\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                            Sed eu ex vel tortor sollicitudin luctus. Aenean sit amet volutpat tellus, eu porttitor\n                            dolor. Phasellus non sem non erat vehicula pellentesque nec a diam.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <!--7-->\n            <div class=\"row timeline-element reverse\" mbr-if=\"timelinesAmount>6\" mbr-class=\"{'separline': !reverseTimeline &amp;&amp; timelinesAmount > 7 || reverseTimeline &amp;&amp; timelinesAmount > 6}\">\n                <span class=\"iconsBackground\">\n                    <span mbr-icon class=\"mbri-desktop mbr-iconfont\"></span>\n                </span>\n                <div class=\"col-xs-12 col-md-6 align-left\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            The SINCLAIR ZX80 mass released\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                            Morbi eu nulla eu erat placerat dapibus at sed metus. Aenean vitae arcu malesuada, semper\n                            nibh nec, venenatis diam.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <!--8-->\n            <div class=\"row timeline-element\" mbr-if=\"timelinesAmount>7\" mbr-class=\"{'separline': !reverseTimeline &amp;&amp; timelinesAmount > 8 || reverseTimeline &amp;&amp; timelinesAmount > 7}\">\n                <span class=\"iconsBackground\">\n                    <span mbr-icon class=\"mbri-credit-card mbr-iconfont\"></span>\n                </span>\n                <div class=\"col-xs-12 col-md-6 align-left \">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            Birth of the modern internet\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                            Nulla facilisi. Vestibulum tempus, metus a ultrices malesuada, eros libero venenatis augue,\n                            nec rutrum lacus nibh quis eros. Integer tempor maximus faucibus. Etiam aliquam nisl quis\n                            lectus consectetur, et condimentum velit congue.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <!--9-->\n            <div class=\"row timeline-element reverse\" mbr-if=\"timelinesAmount>8\" mbr-class=\"{'separline': !reverseTimeline &amp;&amp; timelinesAmount > 9 || reverseTimeline &amp;&amp; timelinesAmount > 8}\">\n                <span class=\"iconsBackground\">\n                    <span mbr-icon class=\"mbri-android mbr-iconfont\"></span>\n                </span>\n                <div class=\"col-xs-12 col-md-6 align-left\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            Microsoft and apple founded\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                            Vestibulum euismod tortor quam. Integer ultrices aliquam pulvinar. Class aptent taciti\n                            sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <!--10-->\n            <div class=\"row timeline-element\" mbr-if=\"timelinesAmount>9\" mbr-class=\"{'separline': !reverseTimeline &amp;&amp; timelinesAmount > 10 || reverseTimeline &amp;&amp; timelinesAmount > 9}\">\n                <span class=\"iconsBackground\">\n                    <span mbr-icon class=\"mbri-apple mbr-iconfont\"></span>\n                </span>\n                <div class=\"col-xs-12 col-md-6 align-left \">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            Unix growing in popularity\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                            Donec posuere interdum velit. Cras finibus tristique ante non cursus. Curabitur lorem leo,\n                            dictum sed finibus ac, porta eu tellus. Sed sodales ullamcorper tempor.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <!--11-->\n            <div class=\"row timeline-element reverse\" mbr-if=\"timelinesAmount>10\" mbr-class=\"{'separline': !reverseTimeline &amp;&amp; timelinesAmount > 11 || reverseTimeline &amp;&amp; timelinesAmount > 10}\">\n                <span class=\"iconsBackground\">\n                    <span mbr-icon class=\"mbri-windows mbr-iconfont\"></span>\n                </span>\n                <div class=\"col-xs-12 col-md-6 align-left\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            Intel founded\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                            Donec at aliquet purus. Cras ligula nunc, varius mattis faucibus gravida, iaculis in nibh.\n                            Donec varius velit erat, sed hendrerit massa dictum id. Morbi a ligula tincidunt, sagittis\n                            nunc eget, sollicitudin tortor.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <!--12-->\n            <div class=\"row timeline-element\" mbr-if=\"timelinesAmount>11\" mbr-class=\"{'separline': reverseTimeline &amp;&amp; timelinesAmount > 11}\">\n                <span class=\"iconsBackground\">\n                    <span mbr-icon class=\"mbri-github mbr-iconfont\"></span>\n                </span>\n                <div class=\"col-xs-12 col-md-6 align-left \">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            Basic programming language designed\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                            Aliquam erat volutpat. In hac habitasse platea dictumst. Proin sapien tortor, consectetur\n                            vel diam eu, elementum vulputate lorem.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = \"color\")": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = \"image\")": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bglayer)": {
-              ".container": {
-                "overflow": "hidden",
-                "margin-right": "auto",
-                "margin-left": "auto",
-                "padding": "50px 15px",
-                "border-radius": "50px",
-                "background-color": "@bgLayerColor",
-                "max-width": "80%"
-              },
-              "@media (max-width: 768px)": {
-                ".container": {
-                  "padding": "50px 15px !important"
-                },
-                ".timelines-container": {
-                  "padding": "50px 21px !important"
-                }
-              }
-            },
-            ".mbr-section-subtitle": {
-              "color": "#232323",
-              "text-align": "right",
-              "font-weight": "300"
-            },
-            ".timeline-text-content": {
-              "padding": "2rem 2.5rem",
-              "background": "@timelineColor",
-              "margin-right": "2rem",
-              "border-radius": "40px",
-              "p": {
-                "margin-bottom": "0"
-              },
-              "@media (max-width: 768px)": {
-                "padding": "1.5rem 0.5rem"
-              },
-              "-webkit-transition": "all 0.4s",
-              "transition": "all 0.4s"
-            },
-            ".mbr-timeline-title, .mbr-timeline-text": {
-              "color": "#ffffff"
-            },
-            ".timeline-element": {
-              "margin-bottom": "50px",
-              "position": "relative",
-              "word-wrap": "break-word",
-              "word-break": "break-word",
-              "display": "-webkit-flex",
-              "-webkit-box-orient": "horizontal",
-              "-webkit-box-direction": "normal",
-              "-ms-flex-direction": "row",
-              "flex-direction": "row",
-              "& when (@hoverEffect)": {
-                "&:hover": {
-                  ".timeline-text-content": {
-                    "-webkit-box-shadow": "0 7px 20px 0px rgba(0, 0, 0, 0.08) !important",
-                    "box-shadow": "0 7px 20px 0px rgba(0, 0, 0, 0.08) !important",
-                    "-webkit-transition": "all 0.4s !important",
-                    "transition": "all 0.4s !important",
-                    "h4, p": {
-                      "-webkit-transition": "color 1s !important",
-                      "transition": "color 1s !important",
-                      "color": "@hoverColor !important"
-                    }
-                  },
-                  ".iconsBackground": {
-                    "span": {
-                      "-webkit-transition": "color 1s !important",
-                      "transition": "color 1s !important",
-                      "color": "@hoverColor !important"
-                    }
-                  },
-                  "&:before": {
-                    "-webkit-transition": "background-color 1s !important",
-                    "transition": "background-color 1s !important",
-                    "background-color": "@hoverColor !important"
-                  }
-                }
-              }
-            },
-            ".reverse": {
-              "-webkit-box-orient": "horizontal",
-              "-webkit-box-direction": "reverse",
-              "-ms-flex-direction": "row-reverse",
-              "flex-direction": "row-reverse",
-              ".timeline-text-content": {
-                "margin-left": "2rem",
-                "margin-right": "0"
-              }
-            },
-            ".iconsBackground": {
-              "position": "absolute",
-              "left": "50%",
-              "width": "60px",
-              "height": "60px",
-              "line-height": "30px",
-              "text-align": "center",
-              "border-radius": "50%",
-              "display": "inline-block",
-              "background-color": "@timelineColor",
-              "top": "20px",
-              "margin-left": "-30px",
-              "span": {
-                "color": "#ffffff"
-              }
-            },
-            ".mbr-iconfont": {
-              "position": "absolute",
-              "text-align": "center",
-              "font-size": "35px",
-              "display": "inline-block",
-              "z-index": "3",
-              "top": "13px",
-              "left": "13px"
-            },
-            ".separline:before": {
-              "top": "20px",
-              "bottom": "0",
-              "position": "absolute",
-              "content": "\"\"",
-              "width": "2px",
-              "background-color": "@timelineColor",
-              "left": "calc(50% ~\"-\" 1px)",
-              "height": "calc(100% ~\"+\" 4rem)"
-            },
-            ".reverseTimeline": {
-              "display": "flex",
-              "-webkit-box-orient": "vertical",
-              "-webkit-box-direction": "reverse",
-              "-ms-flex-direction": "column-reverse",
-              "flex-direction": "column-reverse"
-            },
-            "@media (max-width: 768px)": {
-              ".iconsBackground": {
-                "left": "1.5rem"
-              },
-              ".separline:before": {
-                "left": "calc(1.5rem ~\"-\" 1px)"
-              },
-              ".timeline-text-content": {
-                "margin-left": "3rem !important",
-                "margin-right": "0 !important"
-              },
-              ".reverse": {
-                ".timeline-text-content": {
-                  "margin-right": "0 !important"
-                }
-              }
-            },
-            ".mbr-section-subtitle DIV": {
-              "text-align": "left"
-            },
-            ".mbr-section-title": {
-              "color": "#ff9966",
-              "text-align": "right"
-            }
-          },
-          "_cid": "t8SLd4Abub",
-          "_anchor": "timeline01-1j",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_name": "accordions02",
-          "_customHTML": "<section class=\"accordion2\" group=\"Accordions\" plugins=\"mbr-switch-arrow, mobirise-icons2\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Accordion Color\" name=\"accordionColor\" value=\"#b2b4d2\" condition=\"!transparent\">\n        <input type=\"color\" title=\"Panel Color\" name=\"panelColor\" value=\"#ffffff\" condition=\"!transparent\">\n        <select title=\"Accordions Count\" name=\"bootstrapAccordion\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\" selected>6</option>\n        </select>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"/addons/beveragem5/components/_images/background7.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ff9966\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#deeeff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <svg class=\"svg-top\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 1600 40\" style=\"enable-background:new 0 0 1600 40;\" preserveAspectRatio=\"none\">\n        <style type=\"text/css\">\n            .st0 {\n                fill: #1A449A;\n            }\n        </style>\n        <path class=\"st0\" d=\"M-1,15.7c200.1,0,200.7,13.8,400.9,13.8C600,29.5,600.4,9.3,800.5,9.3S998.8,36.8,1199,36.8\n\ts201.9-21.1,402-21.1v24.1L-1,40V15.7z\"></path>\n    </svg>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n\n            <div class=\"col-12 col-md-12 col-lg-6 image-wrapper m-auto\">\n                <img class=\"w-100 md-pb\" src=\"@PROJECT_PATH@/assets/images/60a7849b322e77094a78444b-image-about-story-crypto-template-1044x1067.png\" alt=\"Mobirise\">\n            </div>\n\n\n            <div class=\"col-md-12 col-lg-6 m-auto col-12\">\n                <h2 class=\"mbr-fonts-style mbr-section-title pb-3 mb-1 mbr-white mbr-semibold align-left\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Recent Answers</b></h2>\n                <h3 class=\"mbr-fonts-style mbr-section-subtitle pb-3 mb-1 mbr-white mbr-regular align-left\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\">Lorem\n                    Ipsum Dolor Sit Amet</h3>\n\n                <div class=\"content-block\">\n                    <div class=\"accordion-content\">\n                        <div id=\"bootstrap-accordion\" class=\"panel-group accordionStyles accordion \" role=\"tablist\" aria-multiselectable=\"true\">\n                            <div class=\"card\">\n                                <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                                    <a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                        <h4 class=\"mbr-fonts-style header-text mbr-white mbr-semibold\" mbr-theme-style=\"display-5\" data-app-selector=\".header-text, .sign, .card-header\">1</h4>\n                                        <span class=\"sign mbr-iconfont mobi-mbri-plus inactive\"></span>\n\n                                    </a>\n                                </div>\n                                <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                                    <div class=\"panel-body pt-4\">\n                                        <p class=\"mbr-fonts-style panel-text mbr-text mbr-white mb-3 mbr-regular\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">What being independent means to me is being able to do things for yourself and being able to do what you what you want to. Yes being independent is important to me so that I can live my full potential<br></p>\n                                    </div>\n                                </div>\n                            </div>\n\n                            <div class=\"card\" mbr-if=\"bootstrapAccordion > 1\">\n                                <div class=\"card-header\" role=\"tab\" id=\"headingTwo\">\n                                    <a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                        <h4 class=\"mbr-fonts-style header-text mbr-white mbr-semibold\" mbr-theme-style=\"display-5\" data-app-selector=\".header-text, .sign, .card-header\">2</h4>\n                                        <span class=\"sign mbr-iconfont mobi-mbri-plus inactive\"></span>\n                                    </a>\n\n                                </div>\n                                <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingTwo\" data-parent=\"#accordion\">\n                                    <div class=\"panel-body pt-4\">\n                                        <p class=\"mbr-fonts-style panel-text mbr-text mbr-white mb-3 mbr-regular\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">To me it means to do something by myself without the need of help. personally I find that doing something myself feels a lot more rewarding. I tend to procrastinate alot and it stops slows me down.<br></p>\n                                    </div>\n                                </div>\n                            </div>\n\n                            <div class=\"card\" mbr-if=\"bootstrapAccordion > 2\">\n                                <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                    <a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                        <h4 class=\"mbr-fonts-style header-text mbr-white mbr-semibold\" mbr-theme-style=\"display-5\" data-app-selector=\".header-text, .sign, .card-header\">3</h4>\n                                        <span class=\"sign mbr-iconfont mobi-mbri-plus inactive\"></span>\n\n                                    </a>\n                                </div>\n                                <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\" data-parent=\"#accordion\">\n                                    <div class=\"panel-body pt-4\">\n                                        <p class=\"mbr-fonts-style panel-text mbr-text mbr-white mb-3 mbr-regular\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">It means that I can achieve things on my own. Yes it is important to me because I look forward to achieving my goal. Sometimes I get distracted by people talking but I achieve my goal in the end.&nbsp;<br></p>\n                                    </div>\n                                </div>\n                            </div>\n\n                            <div class=\"card\" mbr-if=\"bootstrapAccordion > 3\">\n                                <div class=\"card-header\" role=\"tab\" id=\"headingFour\">\n                                    <a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                        <h4 class=\"mbr-fonts-style header-text mbr-white mbr-semibold\" mbr-theme-style=\"display-5\" data-app-selector=\".header-text, .sign, .card-header\">4</h4>\n                                        <span class=\"sign mbr-iconfont mobi-mbri-plus inactive\"></span>\n\n                                    </a>\n                                </div>\n                                <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingFour\" data-parent=\"#accordion\">\n                                    <div class=\"panel-body pt-4\">\n                                        <p class=\"mbr-fonts-style panel-text mbr-text mbr-white mb-3 mbr-regular\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">Being able to achieve things on my own. Yes it is important to me because I look forward to achieving my goal. I get distracted by people sometimes but I do achieve my goal in the end.&nbsp; &nbsp; &nbsp;</p><p></p><p></p>\n                                    </div>\n                                </div>\n                            </div>\n\n                            <div class=\"card\" mbr-if=\"bootstrapAccordion > 4\">\n                                <div class=\"card-header\" role=\"tab\" id=\"headingFive\">\n                                    <a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                        <h4 class=\"mbr-fonts-style header-text mbr-white mbr-semibold\" mbr-theme-style=\"display-5\" data-app-selector=\".header-text, .sign, .card-header\">5</h4>\n                                        <span class=\"sign mbr-iconfont mobi-mbri-plus inactive\"></span>\n\n                                    </a>\n                                </div>\n                                <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" data-parent=\"#accordion\" role=\"tabpanel\" aria-labelledby=\"headingFive\">\n                                    <div class=\"panel-body pt-4\">\n                                        <p class=\"mbr-fonts-style panel-text mbr-text mbr-white mb-3 mbr-regular\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">Independents is like when a bird gets pushed from its nest. Its when you go off and do what you want to do and where you can figure it out yourself. Achieving goals is you trying and not giving up.&nbsp;<br></p>\n                                    </div>\n                                </div>\n                            </div>\n\n                            <div class=\"card\" mbr-if=\"bootstrapAccordion > 5\">\n                                <div class=\"card-header\" role=\"tab\" id=\"headingSix\">\n                                    <a role=\"button\" class=\"collapsed panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                        <h4 class=\"mbr-fonts-style header-text mbr-white mbr-semibold\" mbr-theme-style=\"display-5\" data-app-selector=\".header-text, .sign, .card-header\">6</h4>\n                                        <span class=\"sign mbr-iconfont mobi-mbri-plus inactive\"></span>\n\n                                    </a>\n                                </div>\n                                <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingSix\">\n                                    <div class=\"panel-body pt-4\">\n                                        <p class=\"mbr-fonts-style panel-text mbr-text mbr-white mb-3 mbr-regular\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">Independence creates emotions connected to freedom and responsibility. Yes it is important. Sometimes uncertainty slows me down.&nbsp;<br></p>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)",
-              ".svg-top": {
-                "display": "none"
-              }
-            },
-            ".header-text": {
-              "display": "flex",
-              "-webkit-align-items": "center",
-              "align-items": "center"
-            },
-            "@media (min-width: 1400px)": {
-              ".col-12": {
-                "padding": "0 2rem"
-              },
-              ".row": {
-                "margin": "0 -2rem"
-              }
-            },
-            ".svg-top": {
-              "width": "100%",
-              "position": "absolute",
-              "left": "0",
-              "top": "-48px",
-              "height": "50px",
-              "transform-origin": "bottom",
-              "animation": "1.5s ease-in-out infinite alternate svg-wave",
-              ".st0": {
-                "fill": "@bg-value"
-              },
-              "@media (max-width: 992px)": {
-                "width": "1000px"
-              },
-              "fill": "@primaryColor"
-            },
-            ".card-header": {
-              "border-bottom": "2px solid currentColor",
-              "margin-bottom": "0px!important"
-            },
-            ".mbr-iconfont": {
-              "font-size": "1.5rem"
-            },
-            "span": {
-              "transform": "rotate(45deg)",
-              "transition": "all 0.3s"
-            },
-            ".collapsed": {
-              "span": {
-                "transform": "rotate(0deg)"
-              }
-            },
-            ".accordion-content": {
-              "-webkit-flex-basis": "100%",
-              "flex-basis": "100%"
-            },
-            ".panel-group": {
-              "width": "100%"
-            },
-            ".sign": {
-              "color": "currentColor",
-              "font-family": "'Moririse2' !important"
-            },
-            ".card": {
-              "border-radius": "0px",
-              ".card-header": {
-                "border-radius": "0px",
-                "padding": "0",
-                "& when not (@transparent)": {
-                  "background-color": "@accordionColor",
-                  "padding": "0 1rem"
-                },
-                "& when (@transparent)": {
-                  "background-color": "transparent"
-                },
-                "a.panel-title": {
-                  "-webkit-justify-content": "space-between",
-                  "justify-content": "space-between",
-                  "transition": "all .3s",
-                  "margin-bottom": "0",
-                  "font-style": "normal",
-                  "display": "flex",
-                  "-webkit-align-items": "center",
-                  "align-items": "center",
-                  "text-decoration": "none !important",
-                  "line-height": "normal",
-                  "&:focus": {
-                    "text-decoration": "none !important"
-                  },
-                  "h4": {
-                    "padding": "1.5rem 1rem 13px 0px",
-                    "margin-bottom": "0"
-                  }
-                }
-              },
-              ".panel-body when not (@transparent)": {
-                "background": "@panelColor",
-                "padding": "1rem 1rem 0"
-              }
-            },
-            ".panel-text": {
-              "color": "#ffffff"
-            },
-            ".header-text, .sign": {
-              "color": "#263d5a"
-            },
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            },
-            ".header-text, .sign, .card-header": {
-              "color": "#ffffff"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#263d5a"
-            },
-            "P": {
-              "color": "#ffffff"
-            }
-          },
-          "_cid": "t8SMZPqkvB",
-          "_anchor": "accordions02-1l",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
         {
           "alias": false,
           "_styles": {
@@ -1797,91 +1245,254 @@
           },
           "_name": "menu1",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\" checked>\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#353535\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/theschoolofbitcoin-96x89.png\" alt mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">The School of ₿itcoin</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://docs.google.com/presentation/d/e/2PACX-1vT6nGYykkxx3_WutTaTxskznCjaZHW_WR4LtT5E9AhO9QKyNOTFL-CZQutPp1CtNS-EySlFSi7SwEaX/pub?start=false&loop=false&delayms=3000\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">Pitch Deck</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://www.theage.com.au/national/victoria/a-gifted-boy-left-singapore-to-enrol-in-this-public-school-20170803-gxoger.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                            Origin Story</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://www.stacks.co/build/fund-your-project\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">Consensus Exam (Stacks)</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://youtu.be/7JTxwhe6Pnk\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">Wallet of Satoshi Tutorial</a>\n                    </li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://yalls.org/articles/97d67df1-d721-417d-a6c0-11d793739be9:0965AC5E-56CD-4870-9041-E69616660E6F/3691f981-313b-4ad7-bdf8-13d3abd345c6#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">Lightning Financial Literacy POC</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://docs.google.com/document/d/e/2PACX-1vSPNLGrIdkk0My5MhZmLarTiwBAl7kqwynICH9VJIKGniyKsRxWxGzeZrYtBDGPzFmdAO_u_iUZiaGW/pub\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">White Paper</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://yalls.org/hashcash/5382897f-12da-484f-a1ac-960b96f87102/\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-mail socicon\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://twitter.com/search?q=%40theschoolofbtc&src=typed_query&f=top\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont fa-bitcoin fa\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary\" href=\"https://classroom.google.com/u/0/c/NTM3NzY0NzM4NzI1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-googlescholar mbr-iconfont mbr-iconfont-btn\"></span>Google Classroom</a>     <a class=\"btn btn-primary\" href=\"https://www.youtube.com/playlist?list=PLwn9KgpxsZSRvMj6vHHAZbXVXOzX-sH6j\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"fa fa-youtube-square mbr-iconfont mbr-iconfont-btn\"></span>Faculty Meetings</a> <a class=\"btn btn-primary\" href=\"https://resources.theschoolofbitcoin.com/\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-github mbr-iconfont mbr-iconfont-btn\"></span>Resources</a>  <a class=\"btn btn-primary\" href=\"https://market.theschoolofbitcoin.com/\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-mobcrush mbr-iconfont mbr-iconfont-btn\"></span>Marketplace</a> <a class=\"btn btn-primary\" href=\"https://curriculum.theschoolofbitcoin.com/bit-entry-program/core-financial-literacy\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-github mbr-iconfont mbr-iconfont-btn\"></span>Curriculum</a> <a class=\"btn btn-primary\" href=\"https://github.com/TheSchoolofBitcoin/curriculumDAO_CD\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-github mbr-iconfont mbr-iconfont-btn\"></span>DAES  Repository</a> <a class=\"btn btn-primary\" href=\"https://twitter.com/theschoolofbtc\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span>Updates</a> <a class=\"btn btn-primary\" href=\"https://theschoolofbitcoin.substack.com/\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-stackoverflow mbr-iconfont mbr-iconfont-btn\"></span>Substack Newsletter</a> <a class=\"btn btn-primary\" href=\"https://hubs.mozilla.com/CmZSgSr/theschoolofbitcoin/\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"icon54-v3-rubber-duck mbr-iconfont mbr-iconfont-btn\"></span>Virtual Learning Space</a> <a class=\"btn btn-primary\" href=\"https://discord.com/invite/eETDK5xfqU\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-discord mbr-iconfont mbr-iconfont-btn\"></span>Learning Community</a> <a class=\"btn btn-primary\" href=\"https://docs.google.com/document/d/e/2PACX-1vSPNLGrIdkk0My5MhZmLarTiwBAl7kqwynICH9VJIKGniyKsRxWxGzeZrYtBDGPzFmdAO_u_iUZiaGW/pub\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"icon54-v3-paper mbr-iconfont mbr-iconfont-btn\"></span>Learner Voice</a> <a class=\"btn btn-primary\" href=\"https://explorer.stacks.co/txid/a3149eb897ddbba3d7135e3c180329cbda684720cd123d71cc25ea4fb27edc85?chain=mainnet\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"icon54-v2-bitcoin-app mbr-iconfont mbr-iconfont-btn\"></span>Stacks Pool</a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
-          "_anchor": "menu1-1u",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\" checked>\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#353535\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/theschoolofbitcoin-96x89.png\" alt mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">The School of ₿itcoin</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://docs.google.com/presentation/d/e/2PACX-1vT6nGYykkxx3_WutTaTxskznCjaZHW_WR4LtT5E9AhO9QKyNOTFL-CZQutPp1CtNS-EySlFSi7SwEaX/pub?start=false&loop=false&delayms=3000\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">Pitch Deck</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://www.theage.com.au/national/victoria/a-gifted-boy-left-singapore-to-enrol-in-this-public-school-20170803-gxoger.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                            Origin Story</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://www.stacks.co/build/fund-your-project\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">Consensus Exam (Stacks)</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://youtu.be/7JTxwhe6Pnk\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">Wallet of Satoshi Tutorial</a>\n                    </li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://yalls.org/articles/97d67df1-d721-417d-a6c0-11d793739be9:0965AC5E-56CD-4870-9041-E69616660E6F/3691f981-313b-4ad7-bdf8-13d3abd345c6#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">Lightning Financial Literacy POC</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://docs.google.com/document/d/e/2PACX-1vSPNLGrIdkk0My5MhZmLarTiwBAl7kqwynICH9VJIKGniyKsRxWxGzeZrYtBDGPzFmdAO_u_iUZiaGW/pub\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">White Paper</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://yalls.org/hashcash/5382897f-12da-484f-a1ac-960b96f87102/\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-mail socicon\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://twitter.com/search?q=%40theschoolofbtc&src=typed_query&f=top\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont fa-bitcoin fa\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary\" href=\"https://classroom.google.com/u/0/c/NTM3NzY0NzM4NzI1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-googlescholar mbr-iconfont mbr-iconfont-btn\"></span>Google Classroom</a>     <a class=\"btn btn-primary\" href=\"https://www.youtube.com/playlist?list=PLwn9KgpxsZSRvMj6vHHAZbXVXOzX-sH6j\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"fa fa-youtube-square mbr-iconfont mbr-iconfont-btn\"></span>Faculty Meetings</a> <a class=\"btn btn-primary\" href=\"https://resources.theschoolofbitcoin.com/\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-github mbr-iconfont mbr-iconfont-btn\"></span>Resources</a>  <a class=\"btn btn-primary\" href=\"https://market.theschoolofbitcoin.com/\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-mobcrush mbr-iconfont mbr-iconfont-btn\"></span>Marketplace</a> <a class=\"btn btn-primary\" href=\"https://curriculum.theschoolofbitcoin.com/bit-entry-program/core-financial-literacy\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-github mbr-iconfont mbr-iconfont-btn\"></span>Curriculum</a> <a class=\"btn btn-primary\" href=\"https://github.com/TheSchoolofBitcoin/curriculumDAO_CD\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-github mbr-iconfont mbr-iconfont-btn\"></span>DAES  Repository</a> <a class=\"btn btn-primary\" href=\"https://twitter.com/theschoolofbtc\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span>Updates</a> <a class=\"btn btn-primary\" href=\"https://theschoolofbitcoin.substack.com/\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-stackoverflow mbr-iconfont mbr-iconfont-btn\"></span>Substack Newsletter</a> <a class=\"btn btn-primary\" href=\"https://hubs.mozilla.com/CmZSgSr/theschoolofbitcoin/\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"icon54-v3-rubber-duck mbr-iconfont mbr-iconfont-btn\"></span>Virtual Learning Space</a> <a class=\"btn btn-primary\" href=\"https://discord.com/invite/eETDK5xfqU\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-discord mbr-iconfont mbr-iconfont-btn\"></span>Learning Community</a> <a class=\"btn btn-primary\" href=\"https://docs.google.com/document/d/e/2PACX-1vSPNLGrIdkk0My5MhZmLarTiwBAl7kqwynICH9VJIKGniyKsRxWxGzeZrYtBDGPzFmdAO_u_iUZiaGW/pub\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"icon54-v3-paper mbr-iconfont mbr-iconfont-btn\"></span>Learner Voice</a> <a class=\"btn btn-primary\" href=\"https://explorer.stacks.co/txid/a3149eb897ddbba3d7135e3c180329cbda684720cd123d71cc25ea4fb27edc85?chain=mainnet\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"icon54-v2-bitcoin-app mbr-iconfont mbr-iconfont-btn\"></span>Stacks Pool</a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_isUserblock": true,
           "_cid": "tdpiG42M25",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
+          "_params": {},
+          "_anchor": "menu1-2l"
+        },
+        {
+          "_name": "header01",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"20\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"20\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Colors</header>\n        <input type=\"color\" title=\"Figure\" name=\"svgColor\" value=\"#ff9900\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/beveragem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#f8f8f8\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div class=\"svg-container\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1600 900\" width=\"1600\" height=\"900\" class=\"lottie__svg\" preserveAspectRatio=\"none\">\n            <defs>\n                <clipPath id=\"__lottie_element_56\">\n                    <rect width=\"1600\" height=\"900\" x=\"0\" y=\"0\"></rect>\n                </clipPath>\n            </defs>\n            <g clip-path=\"url(#__lottie_element_56)\">\n                <g transform=\"matrix(1,0,0,1,1389.843017578125,-225.20799255371094)\" opacity=\"1\" style=\"display: block;\">\n                    <g opacity=\"1\" transform=\"matrix(1,0,0,1,0,0)\">\n                        <path fill=\"rgb(255,237,168)\" fill-opacity=\"1\" d=\" M-419.624755859375,415.6952209472656 C17.504684448242188,354.5908203125 503.072998046875,568.8040161132812 708.1630249023438,382.1440124511719 C913.2529907226562,195.4739990234375 407.1830139160156,25.333999633789062 407.1830139160156,-114.36599731445312 C407.1830139160156,-283.6960144042969 431.1730041503906,-345.0660095214844 316.9930114746094,-426.3559875488281 C146.18299865722656,-547.9760131835938 69.49299621582031,-405.5559997558594 -319.84698486328125,-361.5459899902344 C-641.4569702148438,-325.1860046386719 -1008.0747680664062,-305.5247802734375 -870.084716796875,-3.934781312942505 C-732.0947265625,297.65521240234375 -740.6259765625,460.5013732910156 -419.624755859375,415.6952209472656z\">\n                        </path>\n                    </g>\n                </g>\n            </g>\n        </svg>\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-12 col-lg-{{imageWidth}} m-auto\">\n                <div class=\"image-wrapper md-pb\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/fo7200aefec47-1-2000x1414.png\" alt=\"Mobirise\">\n                </div>\n            </div>\n            <div class=\"col-12 col-md-12 col-lg m-auto\">\n                <div class=\"text-wrapper align-left\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-4\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>BeveragesM5 Theme</b></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam congue velit ac risus maximus\n                        blandit. Integer vel velit nec libero pulvinar volutpat nontellus. Proin non sem a nulla aliquet\n                        dictum.</p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-lg btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">READ MORE</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              ".svg-top": {
+                "display": "none"
+              }
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".svg-container": {
+              "position": "absolute",
+              "top": "0",
+              "width": "100%",
+              "overflow": "hidden",
+              "height": "300px"
+            },
+            "svg": {
+              "position": "absolute",
+              "top": "50px",
+              "width": "1700px",
+              "right": "-80px",
+              "transform": "scaleX(1) scaleY(1.3) rotate(0deg)",
+              "path": {
+                "fill": "@svgColor"
+              },
+              "animation": "1.5s ease-in-out infinite alternate svg",
+              "@media (max-width: 992px)": {
+                "width": "1500px"
+              },
+              "@media (max-width: 767px)": {
+                "width": "800px"
+              }
+            },
+            "@keyframes svg": {
+              "from": {
+                "transform": "scaleX(1.2) scaleY(1.35) rotate(-1deg)"
+              },
+              "to": {
+                "transform": "scaleX(1) scaleY(1.3) rotate(0deg)"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#1a449a"
+            },
+            "@media (min-width: 1400px)": {
+              ".col-12": {
+                "padding": "0 2rem"
+              },
+              ".row": {
+                "margin": "0 -2rem"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#1a449a"
+            }
+          },
+          "_cid": "tpbuWbwOSh",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header01-2r"
+        },
+        {
+          "_name": "team01",
+          "_sourceTheme": "mobirise5",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".team-card": {
+              "margin-bottom": "2rem",
+              "transition": "all 0.3s",
+              "&:hover": {
+                "transform": "translateY(-10px)"
+              }
+            },
+            "img": {
+              "transform": "scale(1.1)",
+              "transition": "all 0.3s"
+            },
+            ".image-wrap": {
+              "overflow": "hidden",
+              "width": "50%",
+              "@media (max-width: 767px)": {
+                "width": "100%"
+              }
+            },
+            ".icon-plus": {
+              "font-size": "1rem",
+              "color": "currentColor",
+              "position": "absolute",
+              "bottom": "1rem",
+              "right": "1rem",
+              "transition": "all 0.3s"
+            },
+            ".line": {
+              "position": "absolute",
+              "top": "1.5rem",
+              "left": "50%",
+              "transform": "translate(-50%)",
+              "width": "25px",
+              "height": "5px",
+              "background": "@lineBG",
+              "z-index": "10",
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".container": {
+              "max-width": "1400px",
+              "@media (min-width: 767px)": {
+                "padding": "0 3rem"
+              }
+            },
+            ".content-wrap": {
+              "padding": "2rem"
+            },
+            ".icon": {
+              "font-size": "2.5rem",
+              "color": "currentColor",
+              "padding-bottom": "1rem",
+              "display": "block"
+            },
+            ".card1": {
+              "background": "@cardBg1",
+              "padding": "0"
+            },
+            ".card2": {
+              "background": "@cardBg2",
+              "padding": "0"
+            },
+            ".card3": {
+              "background": "@cardBg3",
+              "padding": "0"
+            },
+            ".card4": {
+              "background": "@cardBg4",
+              "padding": "0"
+            },
+            ".card-wrap": {
+              "position": "relative",
+              "display": "flex",
+              "@media (max-width: 767px)": {
+                "flex-direction": "column"
+              },
+              "&:hover": {
+                "img": {
+                  "transform": "scale(1)"
+                },
+                ".icon-plus": {
+                  "transform": "rotate(90deg)",
+                  "transform-origin": "center"
+                }
+              },
+              ".image-wrap img": {
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".content-wrap": {
+                "padding": "4rem 1rem",
+                "text-align": "center"
+              }
+            },
+            ".card-title, .icon, .icon-plus": {
+              "color": "#ffffff"
+            },
+            ".mbr-role": {
+              "color": "#ffffff"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".mbr-role DIV": {
+              "text-align": "left"
+            }
+          },
+          "_customHTML": "<section class=\"teams1\" group=\"Teams\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"checkbox\" title=\"Icon\" name=\"showIcon\" checked>\n        <input type=\"checkbox\" title=\"Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Role\" name=\"showRole\" checked>\n        <header>Colors</header>\n        <input type=\"color\" title=\"Card 1\" name=\"cardBg1\" value=\"#ff9966\">\n        <input type=\"color\" title=\"Card 2\" name=\"cardBg2\" value=\"#183737\" condition=\"cardsAmount > 1\">\n        <input type=\"color\" title=\"Card 3\" name=\"cardBg3\" value=\"#000000\" condition=\"cardsAmount > 2\">\n        <input type=\"color\" title=\"Card 4\" name=\"cardBg4\" value=\"#59bb93\" condition=\"cardsAmount > 3\">\n        <input type=\"color\" title=\"Line\" name=\"lineBG\" value=\"#ffd96a\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value parallax>\n            <input type=\"color\" title=\"Color\" value=\"#353535\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 card1 col-md-12 col-lg-6\">\n                <div class=\"card-wrap\">\n                    <div class=\"line\"></div>\n                    <div class=\"image-wrap\">\n                        <img src=\"@PROJECT_PATH@/assets/images/kieran-720x510.png\" alt>\n                    </div>\n                    <div class=\"content-wrap\">\n                        <a href=\"http://vida.page/kierandnolan\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont icon mdi-communication-message\" mbr-if=\"showIcon\"></span></a>\n\n                        <h5 class=\"mbr-section-title card-title mbr-fonts-style m-0\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".card-title, .icon, .icon-plus\"><b>Kieran Nolan</b></h5>\n                        <h6 class=\"mbr-role mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\" data-app-selector=\".mbr-role\"><a href=\"https://vida.page/kierandnolan\" class=\"text-primary\" target=\"_blank\">⚡vida.page/kierandnolan</a><br>Kieran has over 10 years experience in the BTC industry, his areas of expertise include: Lightning Network Integration, Mining Setup and Maintenance, Security and Hardware Wallets, Full Node Implementation, and IPFS.<br><br></h6>\n\n                        <span mbr-icon class=\"icon-plus mobi-mbri-plus mobi-mbri\"></span>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-12 card2 col-md-12 col-lg-6\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrap\">\n                    <div class=\"line\"></div>\n                    <div class=\"image-wrap\">\n                        <img src=\"@PROJECT_PATH@/assets/images/electra-720x510.png\" alt>\n                    </div>\n                    <div class=\"content-wrap\">\n                        <a href=\"http://vida.page/electra\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont icon mdi-communication-message\" mbr-if=\"showIcon\"></span></a>\n\n                        <h5 class=\"mbr-section-title card-title mbr-fonts-style m-0\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".card-title, .icon, .icon-plus\"><b>Electra Frost</b></h5>\n                        <h6 class=\"mbr-role mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\" data-app-selector=\".mbr-role\"><a href=\"http://vida.page/electra\" class=\"text-primary\" target=\"_blank\">⚡ vida.page/electra</a><br>Electra has been a business advisor for 20 years+ | Early adopter of cloud technologies | Always innovating within my own practice to guide others | Reporting Bitcoin on the balance sheet since 2014.\n<div><br></div></h6>\n\n                        <span mbr-icon class=\"icon-plus mobi-mbri-plus mobi-mbri\"></span>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-12 card3 col-md-12 col-lg-6\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrap\">\n                    <div class=\"line\"></div>\n                    <div class=\"image-wrap\">\n                        <img src=\"@PROJECT_PATH@/assets/images/oliwhite159-img-1237-2-720x509.png\" alt>\n                    </div>\n                    <div class=\"content-wrap\">\n                        <a href=\"http://vida.page/tigs\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont icon mdi-communication-message\" mbr-if=\"showIcon\"></span></a>\n\n                        <h5 class=\"mbr-section-title card-title mbr-fonts-style m-0\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".card-title, .icon, .icon-plus\"><b>Oliver White</b><b><br></b></h5>\n                        <h6 class=\"mbr-role mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\" data-app-selector=\".mbr-role\"><a href=\"http://vida.page/tigs\" class=\"text-primary\" target=\"_blank\">⚡ vida.page/tigs</a><br>Oliver has had several years working and studying the workings of Bitcoin and other Blockchains. Areas of expertise lie in Node installation, hardware wallet consultation as well as a budding interest in Self-hosting and Lightning.</h6>\n\n                        <span mbr-icon class=\"icon-plus mobi-mbri-plus mobi-mbri\"></span>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-12 card4 col-md-12 col-lg-6\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrap\">\n                    <div class=\"line\"></div>\n                    <div class=\"image-wrap\">\n                        <img src=\"@PROJECT_PATH@/assets/images/gordon-fo213e2649f86-300x212.png\" alt>\n                    </div>\n                    <div class=\"content-wrap\">\n                        <a href=\"http://vida.page/gordon\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont icon mdi-communication-message\" mbr-if=\"showIcon\"></span></a>\n\n                        <h5 class=\"mbr-section-title card-title mbr-fonts-style m-0\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".card-title, .icon, .icon-plus\"><b>Gordon Christian</b></h5>\n                        <h6 class=\"mbr-role mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\" data-app-selector=\".mbr-role\"><a href=\"http://vida.page/gordon\" class=\"text-primary\" target=\"_blank\">⚡ vida.page/gordon</a><div>Starting with Australia's first Digital Currency Town in 2018 Gordon is shining the light for many on the pathway to Bitcoin adoption. The Bitcoin station is always open and tickets to ride are free. \n</div><div><br></div></h6>\n\n                        <span mbr-icon class=\"icon-plus mobi-mbri-plus mobi-mbri\"></span>\n                    </div>\n                </div>\n            </div>\n\n\n        </div>\n    </div>\n</section>",
+          "_anchor": "team01-2n",
+          "_isUserblock": true,
+          "_cid": "tpbuoG2uTE",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
           "_params": {}
         },
         {
           "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
-            ".media-wrap": {
-              "padding": "0",
-              "@media (max-width: 991px)": {
-                "margin-bottom": "1rem"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".row": {
-                "text-align": "center",
-                "& > div": {
-                  "margin": "auto"
-                }
-              },
-              ".social-row": {
-                "justify-content": "center"
-              }
-            },
-            ".social-row": {
-              "display": "flex",
-              "flex-wrap": "wrap"
-            },
-            ".list": {
-              "list-style": "none",
-              "padding-left": "0",
-              "@media (max-width: 991px)": {
-                "margin-bottom": "2rem"
-              },
-              "@media (min-width: 992px)": {
-                "margin-bottom": "0rem"
-              },
-              "color": "#bbbbbb"
-            },
-            ".mbr-text": {
-              "color": "#bbbbbb"
-            },
-            ".soc-item": {
-              "display": "flex",
-              "align-items": "center",
-              "justify-content": "center",
-              "border-radius": "50%",
-              "background-color": "white",
-              "margin-right": "0.5rem",
-              "margin-bottom": "1rem",
-              "padding": "0.5rem",
-              "height": "2.5rem",
-              "width": "2.5rem"
-            },
-            ".mbr-iconfont": {
-              "color": "black"
-            },
-            "@media (max-width: 991px)": {
-              "div > *:last-child": {
-                "margin-top": "0 !important"
-              }
-            }
+            "overflow": "hidden"
           },
-          "_name": "footer4",
+          "_name": "footer7",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"footer4\" group=\"Footers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" global once=\"footers\" mbr-class=\"{\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Logo Size\" name=\"logoSize\" min=\"1\" max=\"3\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked>\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"4\" step=\"1\" value=\"4\" condition=\"showSocial\">\n        <input type=\"checkbox\" title=\"Copyright\" name=\"showCopyright\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row mbr-white\">\n            <div class=\"col-6 col-lg-3\">\n                <div class=\"media-wrap col-md-{{4*logoSize}} col-12\">\n                    <a href=\"https://mobiri.se/\">\n                        <img src=\"@PROJECT_PATH@/assets/images/theschoolofbitcoin-506x469.png\" alt=\"Mobirise\">\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"></h5>\n                <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">\n                    A<a href=\"http://digitalplayhouse.org.au\" class=\"text-info\" target=\"_blank\">  Digital Playhouse Foundation</a> <a href=\"https://en.wikipedia.org/wiki/Open_source\" class=\"text-danger\" target=\"_blank\">open project</a> to build a dynamic consensus driven curriculum &amp; community specifically for (de)financial literacy that has the ability to plug into any institution to support learners on <a href=\"https://en.wikipedia.org/wiki/Problem-based_learning\" class=\"text-danger\" target=\"_blank\">problem </a>and <a href=\"https://en.wikipedia.org/wiki/Project-based_learning\" class=\"text-danger\" target=\"_blank\">project </a>based learning journeys.</p>\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showTitle && showSocial\"><a href=\"https://theschoolofbitcoin.substack.com/\" class=\"text-danger\" target=\"_blank\">Substack Newsletter</a><br><a href=\"https://podcastindex.org/podcast/5567149\" class=\"text-danger text-primary\" target=\"_blank\">Podcast</a></h5>\n                <div class=\"social-row display-7\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.youtube.com/playlist?list=PLwn9KgpxsZSRvMj6vHHAZbXVXOzX-sH6j\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont fa-youtube-play fa\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/theschoolofbtc\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-twitter socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://resources.theschoolofbitcoin.com/\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-github socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://discord.com/invite/eETDK5xfqU\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-discord socicon\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><span style=\"font-size: 1rem;\"><a href=\"https://docs.google.com/document/d/1jExbHXOdRShllCUEPxZ_3cTdmcGXTq8j7-LgHQ-9ocg/edit?usp=sharing\" class=\"text-danger\" target=\"_blank\">Faculty Meeting Notes</a></span></li><li class=\"mbr-text item-wrap\"><span style=\"font-size: 1rem;\"><a href=\"https://www.youtube.com/playlist?list=PLwn9KgpxsZSRvMj6vHHAZbXVXOzX-sH6j\" class=\"text-danger\" target=\"_blank\">Faculty Meetings</a></span></li><li class=\"mbr-text item-wrap\"><span style=\"font-size: 1rem;\"><a href=\"https://us02web.zoom.us/j/89949968566?pwd=b1BqeE9nYkZwZzk5YnBCODY5UWhTQT09\" class=\"text-danger\" target=\"_blank\">Zoom link</a></span><br></li><a href=\"https://us02web.zoom.us/j/89949968566?pwd=b1BqeE9nYkZwZzk5YnBCODY5UWhTQT09\" class=\"text-primary\" target=\"_blank\">\n                    </a><li class=\"mbr-text item-wrap\"><a href=\"https://discord.com/invite/eETDK5xfqU\" class=\"text-danger\" target=\"_blank\">Discord</a></li><li class=\"mbr-text item-wrap\"><a href=\"https://market.theschoolofbitcoin.com/\" class=\"text-danger\" target=\"_blank\">Marketplace</a></li><li class=\"mbr-text item-wrap\"><a href=\"https://classroom.google.com/u/0/c/NTM3NzY0NzM4NzI1\" class=\"text-danger\" target=\"_blank\">Google Classroom</a></li><li class=\"mbr-text item-wrap\"><a href=\"https://resources.theschoolofbitcoin.com/\" class=\"text-danger\" target=\"_blank\">Resources</a></li><li class=\"mbr-text item-wrap\"><a href=\"https://hubs.mozilla.com/CmZSgSr/theschoolofbitcoin/\" class=\"text-danger\" target=\"_blank\">Virtual Learning Space</a></li><li class=\"mbr-text item-wrap\"><br></li><li class=\"mbr-text item-wrap\"><b>DAES</b></li><li class=\"mbr-text item-wrap\"><a href=\"https://github.com/TheSchoolofBitcoin/curriculumDAO_CD\" class=\"text-danger\" target=\"_blank\">DAES Repository</a>\n</li><li class=\"mbr-text item-wrap\"><a href=\"https://www.youtube.com/watch?v=hNxNwY8R9SE\" class=\"text-danger\" target=\"_blank\">What is a DAES?</a></li><li class=\"mbr-text item-wrap\"><a href=\"https://explorer.stacks.co/txid/a3149eb897ddbba3d7135e3c180329cbda684720cd123d71cc25ea4fb27edc85?chain=mainnet\" class=\"text-danger\" target=\"_blank\">Stacks Pool</a></li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">Learner Tools</h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><span style=\"font-size: 1rem;\"><a href=\"https://www.hiro.so/wallet\" class=\"text-danger\" target=\"_blank\">Hiro Wallet</a></span></li><li class=\"mbr-text item-wrap\"><a href=\"https://github.com/ipfs/ipfs-desktop\" class=\"text-danger\" target=\"_blank\">IPFS Desktop</a></li><li class=\"mbr-text item-wrap\"><span style=\"font-size: 1rem;\"><a href=\"https://www.walletofsatoshi.com/\" class=\"text-danger\" target=\"_blank\">Wallet of Satoshi</a></span></li><li class=\"mbr-text item-wrap\"><span style=\"font-size: 1rem;\"><a href=\"https://github.com/runcitadel\" class=\"text-danger\" target=\"_blank\">Citadel</a></span></li><li class=\"mbr-text item-wrap\"><br></li>\n                </ul>\n            </div>\n            <div class=\"col-12 mt-4\" mbr-if=\"showCopyright\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style copyright align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright\" data-app-placeholder=\"Type Text\">\n                    <a href=\"https://www.gnu.org/licenses/gpl-3.0.en.html\" class=\"text-danger\" target=\"_blank\">GPLv3 Copyleft License 2022</a></p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "te3CNPzgme",
-          "_anchor": "footer4-1y",
+          "_customHTML": "<section class=\"footer7\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    <a href=\"https://www.gnu.org/licenses/gpl-3.0.en.html\" class=\"text-primary\" target=\"_blank\">GPLv3 Copyleft License 2022</a><br>A <a href=\"https://www.digitalplayhouse.org.au/\" class=\"text-info\" target=\"_blank\">Digital Playhouse Foundation</a> Open Project<br><a href=\"https://getalby.com/p/theschoolofbitcoin\" class=\"text-primary\" target=\"_blank\">⚡️theschoolofbitcoin@getalby.com</a><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tpbtxJVmnL",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
-          "_params": {}
+          "_params": {},
+          "_anchor": "footer7-2m"
         }
       ]
     }
