@@ -63,7 +63,7 @@
     "gdpr": false,
     "pwa-switcher": false,
     "uniqCompNum": 102,
-    "versionPublish": "5.3.10",
+    "versionPublish": "5.7.0",
     "screenshot": "screenshot.png",
     "lazyType": "placeholder",
     "publishChangesOnly": true,
@@ -75,7 +75,9 @@
     },
     "mcSmartCart": {
       "currency": "USD"
-    }
+    },
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -910,7 +912,7 @@
             }
           },
           "_name": "gallery1",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\t\t<input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n\t\t<input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n\t\t<input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#4284df\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n\t\t<input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n\t\t<input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n\t\t<input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\">\n\n\t\t<input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div mbr-class=\"{'container': !fullWidth}\">\n\t\t<div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"4\"></div>\n\t</div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\t\t<input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n\t\t<input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n\t\t<input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#4284df\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n\t\t<input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n\t\t<input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n\t\t<input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\">\n\n\t\t<input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div mbr-class=\"{'container': !fullWidth}\">\n\t\t<div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\"></div>\n\t</div>\n</section>",
           "_cid": "tphIwhARy3",
           "_anchor": "gallery1-2t",
           "_sourceTheme": "mobirise5",
@@ -928,21 +930,8 @@
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
-                "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20221121-1138162022-11-3-11-40-10.jpg",
-                "playVideo": true,
-                "videoUrl": "https://youtu.be/Jgx1SVeVzfU",
-                "image": "@PROJECT_PATH@/assets/images/theschoolofbitcoin-temmplate-for-thumbnail-1-737x415.png",
-                "thumb": "@PROJECT_PATH@/assets/images/theschoolofbitcoin-temmplate-for-thumbnail-1-737x415-737x415.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2022117-1111432022-11-3-11-13-43.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2022117_1111432022-11-3_11-13-43.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/KUxZQD6eXa4?list=PLwn9KgpxsZSRvMj6vHHAZbXVXOzX-sH6j",
                 "image": "@THEME_PATH@/components/_images/background1.jpg",
@@ -955,7 +944,7 @@
               },
               {
                 "tags": "Responsive",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2022117-1111432022-11-3-11-14-52.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2022117_1111432022-11-3_11-14-52.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/Fi6P0Tas5jk?list=PLwn9KgpxsZSRvMj6vHHAZbXVXOzX-sH6j",
                 "image": "@THEME_PATH@/components/_images/background2.jpg",
@@ -968,7 +957,7 @@
               },
               {
                 "tags": "Creative",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2022117-1111432022-11-3-11-15-1.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2022117_1111432022-11-3_11-15-1.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/qg3e5-qmJ-w?list=PLwn9KgpxsZSRvMj6vHHAZbXVXOzX-sH6j",
                 "image": "@THEME_PATH@/components/_images/background3.jpg",
@@ -981,7 +970,7 @@
               },
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2022117-1111432022-11-3-11-15-13.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2022117_1111432022-11-3_11-15-13.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/iUt-MgR9j_0?list=PLwn9KgpxsZSRvMj6vHHAZbXVXOzX-sH6j",
                 "image": "@THEME_PATH@/components/_images/background4.jpg",
@@ -994,7 +983,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2022117-1111432022-11-3-11-15-49.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2022117_1111432022-11-3_11-15-49.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/e_wvUcmsOAs?list=PLwn9KgpxsZSRvMj6vHHAZbXVXOzX-sH6j",
                 "image": "@THEME_PATH@/components/_images/background5.jpg",
@@ -1007,7 +996,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2022117-1111432022-11-3-11-16-12.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2022117_1111432022-11-3_11-16-12.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/7kstbpkq30Y?list=PLwn9KgpxsZSRvMj6vHHAZbXVXOzX-sH6j",
                 "image": "@THEME_PATH@/components/_images/background6.jpg",
@@ -1020,7 +1009,7 @@
               },
               {
                 "tags": "Responsive",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2022117-1111432022-11-3-11-16-20.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2022117_1111432022-11-3_11-16-20.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/9q-pU4FkYHU?list=PLwn9KgpxsZSRvMj6vHHAZbXVXOzX-sH6j",
                 "image": "@THEME_PATH@/components/_images/background7.jpg",
@@ -1033,7 +1022,7 @@
               },
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2022117-1111432022-11-3-11-16-45.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2022117_1111432022-11-3_11-16-45.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/wgIET46ub48?list=PLwn9KgpxsZSRvMj6vHHAZbXVXOzX-sH6j",
                 "image": "@THEME_PATH@/components/_images/background8.jpg",
