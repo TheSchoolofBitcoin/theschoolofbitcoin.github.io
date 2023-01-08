@@ -62,7 +62,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 108,
+    "uniqCompNum": 104,
     "versionPublish": "5.3.10",
     "screenshot": "screenshot.png",
     "lazyType": "placeholder",
@@ -75,7 +75,9 @@
     },
     "mcSmartCart": {
       "currency": "USD"
-    }
+    },
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -816,6 +818,34 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".video-wrapper iframe": {
+              "width": "100%"
+            },
+            ".mbr-section-title, .mbr-section-subtitle, .mbr-text": {
+              "text-align": "center"
+            }
+          },
+          "_name": "video3",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"video3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"6\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"6\" step=\"1\" condition=\"fullWidth==false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"../_images/background1.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#232323\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://vimeo.com/428046504\" title=\"Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                <b>View in Action</b></h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-0 mt-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\">Click on the video in this block to set the link to\n                your own video.</h5>\n        </div>\n        <div class=\"row mt-4\">\n            <div class=\"col-12 col-md-6 video-block\">\n                <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://youtu.be/Jgx1SVeVzfU?loop=0&autoplay=0\"></iframe>\n                </div>\n                <p class=\"mbr-text pt-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-text\">\n                    Video Description</p>\n            </div>\n            <div class=\"col-12 col-md-6 video-block\">\n                <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://youtu.be/KUxZQD6eXa4?list=PLwn9KgpxsZSRvMj6vHHAZbXVXOzX-sH6j&loop=0&autoplay=0\" width=\"800\" height=\"600\"></iframe>\n                </div>\n                <p class=\"mbr-text pt-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-text\">\n                    Video Description</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tqBNc20zBQ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "video3-2v"
         },
         {
           "alias": false,
