@@ -705,8 +705,6 @@ a {
 .cid-tEEhQtvaZD {
   z-index: 1000;
   width: 100%;
-  position: relative;
-  min-height: 60px;
 }
 .cid-tEEhQtvaZD nav.navbar {
   position: fixed;
@@ -783,13 +781,13 @@ a {
   }
 }
 .cid-tEEhQtvaZD .iconfont-wrapper {
-  color: #000000 !important;
+  color: #ff9900 !important;
   font-size: 1.5rem;
   padding-right: 0.5rem;
 }
 .cid-tEEhQtvaZD .dropdown-menu,
 .cid-tEEhQtvaZD .navbar.opened {
-  background: #ffffff !important;
+  background: #ff9966 !important;
 }
 .cid-tEEhQtvaZD .nav-item:focus,
 .cid-tEEhQtvaZD .nav-link:focus {
@@ -823,8 +821,8 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  position: absolute;
+  background: rgba(255, 153, 102, 0);
 }
 .cid-tEEhQtvaZD .navbar.opened {
   transition: all 0.3s;
@@ -974,7 +972,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-tEEhQtvaZD .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #ffffff;
+  background: #ff9966;
 }
 .cid-tEEhQtvaZD .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
@@ -1143,6 +1141,18 @@ a {
     padding-right: 2rem;
     padding-left: 2rem;
   }
+}
+#custom-html-3u {
+  /* Type valid CSS here */
+}
+#custom-html-3u div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-3u p {
+  font-size: 60px;
+  color: #777;
 }
 .cid-tEzshZaEn5 {
   padding-top: 6rem;
