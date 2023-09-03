@@ -1142,6 +1142,18 @@ a {
     padding-left: 2rem;
   }
 }
+#custom-html-3v {
+  /* Type valid CSS here */
+}
+#custom-html-3v div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-3v p {
+  font-size: 60px;
+  color: #777;
+}
 .cid-tEzshZaEn5 {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -1167,6 +1179,7 @@ a {
 }
 .cid-tEzshZaEn5 .item-subtitle {
   margin-bottom: 1rem;
+  color: #f8f8f8;
 }
 .cid-tEzshZaEn5 .item-wrapper {
   position: relative;
@@ -1174,11 +1187,6 @@ a {
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
-}
-@media (max-width: 991px) {
-  .cid-tEzshZaEn5 .item-wrapper .item-footer {
-    padding: 0 1rem 1rem;
-  }
 }
 .cid-tEzshZaEn5 .item-wrapper:hover .item-content {
   opacity: 1;
