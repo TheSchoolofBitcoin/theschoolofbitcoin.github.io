@@ -2,6 +2,10 @@
 
 At The School of Bitcoin, our core mission revolves around the principles of inclusivity, decentralisation, and the relentless pursuit of knowledge in the ever-evolving landscape of Bitcoin.
 
+**Financial Literacy at the Heart of The School of Bitcoin:**
+
+At The School of Bitcoin, we firmly believe that financial literacy is the cornerstone of success in the world of digital currency. As Bitcoin continues to reshape the financial landscape, it becomes increasingly essential for individuals to possess a deep understanding of financial principles and cryptocurrency fundamentals. We are committed to instilling the knowledge and skills required to navigate this new paradigm effectively. By emphasizing financial literacy, we empower our learners to make informed decisions, manage their digital assets securely, and actively participate in the transformative potential of Bitcoin. Our mission is not only to educate but to nurture a community of financially literate individuals who can harness the power of Bitcoin for their financial well-being and the betterment of society as a whole.
+
 ## V4V Open Lessons
 
 Every week, we curate and facilitate interactive lessons that thrive on the collective spirit of our community. These sessions are open to all individuals eager to share and refine their skills and are fueled by the relentless innovation within the realm of Bitcoin. In this dynamic space, we champion a holistic approach to staying well-informed driven by the community's collaborative efforts.
