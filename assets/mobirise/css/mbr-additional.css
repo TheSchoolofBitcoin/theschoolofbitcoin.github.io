@@ -1077,7 +1077,7 @@ a {
 .cid-tEEmU75zAf {
   flex-direction: column !important;
   justify-content: center;
-  background-color: #000000;
+  background-image: url("../../../assets/images/fo7200aefec47-1-2000x1414.png");
 }
 .cid-tEEmU75zAf .row.heading {
   margin-bottom: 72px;
@@ -1146,6 +1146,10 @@ a {
 .cid-tEEmU75zAf .mbr-section-btn,
 .cid-tEEmU75zAf .buttons-wrap {
   text-align: center;
+}
+.cid-tEEmU75zAf .card .card-box .mbr-text,
+.cid-tEEmU75zAf .link {
+  text-align: left;
 }
 .cid-tEyxHA1g3w {
   padding-top: 5rem;
