@@ -787,7 +787,7 @@ a {
 }
 .cid-tEEhQtvaZD .dropdown-menu,
 .cid-tEEhQtvaZD .navbar.opened {
-  background: #ff9966 !important;
+  background: #000000 !important;
 }
 .cid-tEEhQtvaZD .nav-item:focus,
 .cid-tEEhQtvaZD .nav-link:focus {
@@ -822,7 +822,7 @@ a {
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
   position: absolute;
-  background: rgba(255, 153, 102, 0);
+  background: rgba(0, 0, 0, 0);
 }
 .cid-tEEhQtvaZD .navbar.opened {
   transition: all 0.3s;
@@ -972,7 +972,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-tEEhQtvaZD .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #ff9966;
+  background: #000000;
 }
 .cid-tEEhQtvaZD .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
