@@ -77,7 +77,9 @@
     "mcSmartCart": {
       "currency": "USD"
     },
-    "usedWebp": false
+    "usedWebp": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -786,7 +788,7 @@
         {
           "_name": "gallery01",
           "_sourceTheme": "techm4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#57468b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"4\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#57468b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"4\"></div>\n    </div>\n\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -916,34 +918,8 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Kieran: kdnolan@coinos.io ⚡",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2024-7-3-6-31-37.jpg",
-                "playVideo": true,
-                "videoUrl": "https://youtu.be/MJlTz6iR818",
-                "image": "@PROJECT_PATH@/assets/images/tsobtc-logo-143x133.png",
-                "thumb": "@PROJECT_PATH@/assets/images/tsobtc-logo-143x133-143x133.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "<span style=\"color: rgb(240, 240, 240); font-family: system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, &quot;Noto Sans&quot;, &quot;Liberation Sans&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 13.9872px; white-space: pre-wrap; background-color: rgba(255, 255, 255, 0.024);\">Alison  </span><a target=\"_blank\" rel=\"noreferrer nofollow noopener\" href=\"mailto:urbanbobcat1@primal.net\" style=\"scroll-margin-top: 60px; color: var(--theme-link); font-family: system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, &quot;Noto Sans&quot;, &quot;Liberation Sans&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 13.9872px; white-space: pre-wrap; background-color: rgba(255, 255, 255, 0.024);\">urbanbobcat1@primal.net</a><span style=\"color: rgb(240, 240, 240); font-family: system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, &quot;Noto Sans&quot;, &quot;Liberation Sans&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 13.9872px; white-space: pre-wrap; background-color: rgba(255, 255, 255, 0.024);\"> ⚡</span>",
+                "caption": "Type caption here",
                 "active": true
-              },
-              {
-                "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2024-7-3-6-33-7.jpg",
-                "playVideo": true,
-                "videoUrl": "https://youtu.be/cKrhHvr626w",
-                "image": "@PROJECT_PATH@/assets/images/tsobtc-logo-143x133.png",
-                "thumb": "@PROJECT_PATH@/assets/images/tsobtc-logo-143x133-143x133.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "<span style=\"color: rgb(240, 240, 240); font-family: system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, &quot;Noto Sans&quot;, &quot;Liberation Sans&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 13.9872px; white-space: pre-wrap; background-color: rgba(255, 255, 255, 0.024);\">Gordon </span><a target=\"_blank\" rel=\"noreferrer nofollow noopener\" href=\"mailto:hecticcreator16@walletofsatoshi.com\" style=\"scroll-margin-top: 60px; color: var(--theme-link); font-family: system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, &quot;Noto Sans&quot;, &quot;Liberation Sans&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 13.9872px; white-space: pre-wrap; background-color: rgba(255, 255, 255, 0.024);\">hecticcreator16@walletofsatoshi.com</a><span style=\"color: rgb(240, 240, 240); font-family: system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, &quot;Noto Sans&quot;, &quot;Liberation Sans&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 13.9872px; white-space: pre-wrap; background-color: rgba(255, 255, 255, 0.024);\"> ⚡</span><br>",
-                "active": false
               },
               {
                 "tags": "Awesome",
@@ -955,7 +931,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -968,7 +944,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -981,7 +957,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -994,7 +970,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -1007,7 +983,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -1020,7 +996,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -1033,7 +1009,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -1046,7 +1022,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -1059,7 +1035,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -1072,7 +1048,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -1085,7 +1061,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -1098,7 +1074,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -1111,7 +1087,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -1124,7 +1100,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -1137,7 +1113,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -1150,7 +1126,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -1163,7 +1139,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -1176,7 +1152,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -1189,7 +1165,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -1202,7 +1178,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -1215,7 +1191,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -1228,7 +1204,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               },
               {
@@ -1241,7 +1217,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TSOBTC@coinos.io⚡",
+                "caption": "Type caption here",
                 "active": false
               }
             ]
