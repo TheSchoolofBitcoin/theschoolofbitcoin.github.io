@@ -79,7 +79,9 @@
     },
     "usedWebp": true,
     "publishEditFolder": false,
-    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -1056,32 +1058,6 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2024-9-2_20-35-12.jpg",
-                "playVideo": true,
-                "videoUrl": "https://youtu.be/5Dtmx7l2cVk",
-                "image": "@PROJECT_PATH@/assets/images/tsobtc-logo-143x133.webp",
-                "thumb": "@PROJECT_PATH@/assets/images/tsobtc-logo-143x133.webp",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "<span data-slate-fragment=\"JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMmtkbm9sYW4lNDBjb2lub3MuaW8lMjB0aWdncyU0MGdldGFsYnkuY29tJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJkUnhINkNEejIwQnIlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJqU0pZOGNRRml4bHElMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJIYXU2VHBEejVhV0olMjIlN0Q=\" style=\"white-space: pre;\">satlantis/npub.pro: kdnolan@coinos.io tiggs@getalby.com</span><span style=\"color: rgb(240, 240, 240); font-family: system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, &quot;Noto Sans&quot;, &quot;Liberation Sans&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 13.9872px; white-space: pre-wrap; background-color: rgba(255, 255, 255, 0.024);\">⚡</span>",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2024-9-2_20-36-54.jpg",
-                "playVideo": true,
-                "videoUrl": "https://youtu.be/G3NLJZzhw-U",
-                "image": "@PROJECT_PATH@/assets/images/tsobtc-logo-143x133.webp",
-                "thumb": "@PROJECT_PATH@/assets/images/tsobtc-logo-143x133.webp",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "<span data-slate-fragment=\"JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMmtkbm9sYW4lNDBjb2lub3MuaW8lMjB0aWdncyU0MGdldGFsYnkuY29tJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJkUnhINkNEejIwQnIlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJqU0pZOGNRRml4bHElMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJIYXU2VHBEejVhV0olMjIlN0Q=\" style=\"white-space: pre;\">RoboSats: kdnolan@coinos.io tiggs@getalby.com</span><span style=\"color: rgb(240, 240, 240); font-family: system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, &quot;Noto Sans&quot;, &quot;Liberation Sans&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 13.9872px; white-space: pre-wrap; background-color: rgba(255, 255, 255, 0.024);\">⚡</span>",
-                "active": true
-              },
-              {
-                "tags": "Awesome",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2024-7-0-14-30-10.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/490zXBEZq5k",
@@ -1104,7 +1080,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<span style=\"color: rgb(240, 240, 240); font-family: system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, &quot;Noto Sans&quot;, &quot;Liberation Sans&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 13.9872px; white-space: pre-wrap; background-color: rgba(255, 255, 255, 0.024);\">Alison  </span><a target=\"_blank\" rel=\"noreferrer nofollow noopener\" href=\"mailto:urbanbobcat1@primal.net\" style=\"scroll-margin-top: 60px; color: var(--theme-link); font-family: system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, &quot;Noto Sans&quot;, &quot;Liberation Sans&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 13.9872px; white-space: pre-wrap; background-color: rgba(255, 255, 255, 0.024);\">urbanbobcat1@primal.net</a><span style=\"color: rgb(240, 240, 240); font-family: system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, &quot;Noto Sans&quot;, &quot;Liberation Sans&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 13.9872px; white-space: pre-wrap; background-color: rgba(255, 255, 255, 0.024);\"> ⚡</span>",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Awesome",
