@@ -1426,42 +1426,6 @@ a {
 .cid-tEEmU75zAf .mbr-section-subtitle DIV {
   text-align: left;
 }
-.cid-upWcAAmb0T {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
-}
-.cid-upWcAAmb0T .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-upWcAAmb0T .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-upWcAAmb0T img {
-  border-radius: 3rem;
-  border-bottom-left-radius: 20rem;
-}
-@media (max-width: 767px) {
-  .cid-upWcAAmb0T img {
-    border-bottom-left-radius: 3rem;
-  }
-}
-.cid-upWcAAmb0T .row {
-  align-items: center;
-}
-.cid-upWcAAmb0T .mbr-section-title {
-  color: #491414;
-}
-.cid-upWcAAmb0T .mbr-text,
-.cid-upWcAAmb0T .mbr-section-btn {
-  color: #491414;
-}
 .cid-ukglvC8S8w {
   padding-top: 0px;
   padding-bottom: 0px;
